@@ -7,10 +7,6 @@ A reusable [Cantera](https://cantera.org/) workflow for one question:
 > Given a starting inventory and a list of candidate products, which products are
 > **thermodynamically equilibrium-accessible** under each modeled condition?
 
-This workflow is intended for researchers who want to screen candidate products 
-for thermodynamic equilibrium accessibility under specified starting inventories 
-and environmental conditions.
-
 You supply species thermodynamic data (extracted from CHNOSZ or seeded from a CSV)
 and a set of scenarios. The workflow fits NASA9 polynomials, generates one
 single-product Cantera model per (scenario × candidate product), runs equilibrium
@@ -20,6 +16,12 @@ reporting threshold — plus supporting diagnostics, tables, and figures.
 This repository ships with **no proprietary species data**. It includes a small,
 fully reproducible example built entirely from public CHNOSZ values so you can
 verify your setup end to end.
+
+## Who this is for
+
+This workflow is intended for researchers who want to screen candidate products 
+for thermodynamic equilibrium accessibility under specified starting inventories 
+and environmental conditions.
 
 ## What "single-product mode" means (and its main caveat)
 
