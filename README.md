@@ -91,6 +91,8 @@ The example should report **adenine** and **cytosine** as accessible
 (`formation_call = significant`) for the validation scenario at 20 °C, with all
 outputs written under `data/results/` and `figures/`.
 
+![Example accessibility bar chart](validation_20C_combined_accessibility_barchart.png)
+
 ## Running your own study
 
 1. Build a species metadata CSV (copy `inputs/species_template.csv`).
