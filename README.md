@@ -7,6 +7,10 @@ A reusable [Cantera](https://cantera.org/) workflow for one question:
 > Given a starting inventory and a list of candidate products, which products are
 > **thermodynamically equilibrium-accessible** under each modeled condition?
 
+This workflow is intended for researchers who want to screen candidate products 
+for thermodynamic equilibrium accessibility under specified starting inventories 
+and environmental conditions.
+
 You supply species thermodynamic data (extracted from CHNOSZ or seeded from a CSV)
 and a set of scenarios. The workflow fits NASA9 polynomials, generates one
 single-product Cantera model per (scenario × candidate product), runs equilibrium
