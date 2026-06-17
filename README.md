@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1272671812.svg)](https://doi.org/10.5281/zenodo.20738206)
+
 # Cantera Equilibrium Accessibility Workflow
 
 A reusable [Cantera](https://cantera.org/) workflow for one question:
