@@ -119,4 +119,4 @@ MIT — see [`LICENSE`](LICENSE).
 ## Citation
 
 If you use this workflow, please cite it. See [`CITATION.cff`](CITATION.cff), or use
-GitHub's "Cite this repository" button once the repo is public.
+GitHub's "Cite this repository" button.
