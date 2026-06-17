@@ -1,0 +1,25 @@
+# Core dependencies (pip-installable). Lower bounds are conservative; the
+# workflow was developed against recent releases of each.
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+pyyaml>=6.0
+scipy>=1.9
+nbformat>=5.7
+
+# To run the notebook interactively:
+#   pip install jupyterlab
+# To run the test suite:
+#   pip install pytest
+
+# ---------------------------------------------------------------------------
+# NOT installable from PyPI on most platforms. Install these in the environment
+# where you run the FULL workflow (equilibrium + CHNOSZ extraction):
+#
+#   conda install -c conda-forge cantera     # >=3.0 recommended
+#   # pyCHNOSZ: see https://github.com/worm-portal/pyCHNOSZ (needs R + CHNOSZ)
+#
+# pyCHNOSZ is only required if you extract Gibbs energies from CHNOSZ
+# (RUN_CHNOSZ_EXTRACTION = True). If you seed the cache from a wide CSV
+# (the bundled example does this), pyCHNOSZ is not needed.
+# ---------------------------------------------------------------------------

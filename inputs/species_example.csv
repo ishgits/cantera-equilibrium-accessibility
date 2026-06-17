@@ -1,0 +1,7 @@
+species_key,cantera_name,chnosz_name,formula,state,molar_volume_cm3_mol,role,notes,product_class
+h2o,H2O(l),water,H2O,liq,18.015,solvent,liquid water basis species,
+hcn,HCN(aq),HCN,CHN,aq,23.9,reactant,hydrogen cyanide starting inventory,
+c2h2,C2H2(aq),ethyne,C2H2,aq,26.038,reactant,acetylene starting inventory,
+nh3,NH3(aq),NH3,H3N,aq,24.5,reactant,ammonia starting inventory,
+adenine,Adenine(aq),adenine,C5H5N5,aq,135.13,product,target nucleobase,nucleobase
+cytosine,Cytosine(aq),cytosine,C4H5N3O,aq,111.11,product,target nucleobase,nucleobase

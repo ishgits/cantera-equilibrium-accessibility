@@ -1,0 +1,24 @@
+# Example scenario file for the Cantera equilibrium accessibility workflow.
+#
+# This reproduces the validation case: an HCN + acetylene + ammonia mixture in
+# water, asking whether the nucleobases adenine and cytosine are thermodynamically
+# equilibrium-accessible at 20 C.
+#
+# Each molecule in initial_moles is treated generically. Cantera can form ANY
+# species present in a generated YAML, so the workflow builds one single-product
+# YAML per (scenario x target product): the starting inventory plus exactly one
+# target. Species absent from a scenario are never allowed to appear merely
+# because they exist in the species metadata table.
+scenarios:
+  validation:
+    description: "Validation run: HCN + C2H2 + NH3 in water, 20 C"
+    # Optional. If omitted, the global TARGET_PRODUCTS in the notebook (or all
+    # species with role=product/target) are used for this scenario.
+    target_products:
+      - Adenine(aq)
+      - Cytosine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.020
+      C2H2(aq): 0.042
+      NH3(aq): 0.020

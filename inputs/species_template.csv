@@ -1,0 +1,15 @@
+species_key,cantera_name,chnosz_name,formula,state,molar_volume_cm3_mol,role,notes,product_class
+# Delete these example rows and add your own. Columns:
+#   species_key            unique snake_case id for this species (your choice)
+#   cantera_name           name used inside generated Cantera YAMLs, e.g. Benzene(aq)
+#   chnosz_name            name passed to pyCHNOSZ.subcrt() for extraction (ignored if seeding from CSV)
+#   formula                expanded formula, no parentheses/hydrates, e.g. C5H5N5
+#   state                  aq | liq (aqueous / liquid)
+#   molar_volume_cm3_mol   molar volume (cm^3/mol) for the constant-volume equation of state
+#   role                   solvent | reactant | additive (starting inventory)  OR  product | target (modeled targets)
+#   notes                  free text, optional
+#   product_class          optional grouping label for products, e.g. nucleobase
+# Example rows (safe to delete):
+water,H2O(l),water,H2O,liq,18.015,solvent,liquid water basis species,
+my_reactant,MyReactant(aq),my reactant chnosz name,C6H6,aq,89.13,reactant,starting inventory,
+my_product,MyProduct(aq),my product chnosz name,C4H4N2O2,aq,112.09,product,modeled target,my_class

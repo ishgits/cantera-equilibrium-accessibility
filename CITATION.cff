@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Cantera Equilibrium Accessibility Workflow"
+abstract: >-
+  A reusable Cantera workflow that determines which candidate products are
+  thermodynamically equilibrium-accessible from a given starting inventory.
+  It fits NASA9 polynomials to Gibbs-energy data (extracted from CHNOSZ or
+  seeded from CSV), generates single-product Cantera models per
+  scenario-product pair, runs equilibrium, and reports accessibility with
+  supporting diagnostics.
+type: software
+authors:
+  - given-names: Ishaan
+    family-names: Madan
+    email: madan_ishaan@wheatoncollege.edu
+version: "1.0.0"
+date-released: "2026-06-17"
+license: MIT
+keywords:
+  - cantera
+  - thermodynamic-equilibrium
+  - CHNOSZ
+  - NASA9
+  - geochemistry
+  - prebiotic-chemistry
+# After creating the GitHub repository, fill in the URL below (and optionally
+# add a DOI via Zenodo) so the citation resolves to a permanent location.
+repository-code: "https://github.com/<your-username>/cantera_equilibrium_workflow"
+url: "https://github.com/<your-username>/cantera_equilibrium_workflow"

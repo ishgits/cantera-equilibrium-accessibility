@@ -1,0 +1,11 @@
+scenario,model_mode,yaml_file,target_product,T_C,T_K,P_Pa,species,X_initial,X_eq,initial_moles,solver_status,error_message
+validation,single_product,Adenine.yaml,Adenine(aq),20.0,293.15,100000.0,H2O(l),0.9242144177449167,0.9380863039259419,1.0,ok,
+validation,single_product,Adenine.yaml,Adenine(aq),20.0,293.15,100000.0,HCN(aq),0.018484288354898334,1.8682584460757275e-11,0.02,ok,
+validation,single_product,Adenine.yaml,Adenine(aq),20.0,293.15,100000.0,C2H2(aq),0.038817005545286505,0.03939962476488955,0.042,ok,
+validation,single_product,Adenine.yaml,Adenine(aq),20.0,293.15,100000.0,NH3(aq),0.018484288354898334,0.018761726078518837,0.02,ok,
+validation,single_product,Adenine.yaml,Adenine(aq),20.0,293.15,100000.0,Adenine(aq),0.0,0.0037523452119672496,0.0,ok,
+validation,single_product,Cytosine.yaml,Cytosine(aq),20.0,293.15,100000.0,H2O(l),0.9242144177449167,0.9359698681732579,1.0,ok,
+validation,single_product,Cytosine.yaml,Cytosine(aq),20.0,293.15,100000.0,HCN(aq),0.018484288354898334,2.306134703640619e-16,0.02,ok,
+validation,single_product,Cytosine.yaml,Cytosine(aq),20.0,293.15,100000.0,C2H2(aq),0.038817005545286505,0.037664783427495296,0.042,ok,
+validation,single_product,Cytosine.yaml,Cytosine(aq),20.0,293.15,100000.0,NH3(aq),0.018484288354898334,0.02071563088512238,0.02,ok,
+validation,single_product,Cytosine.yaml,Cytosine(aq),20.0,293.15,100000.0,Cytosine(aq),0.0,0.005649717514124223,0.0,ok,

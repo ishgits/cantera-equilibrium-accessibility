@@ -1,0 +1,29 @@
+# Scenario template. Copy this file, rename it, and edit for your own runs.
+# Point SCENARIO_FILENAME in the notebook's Cell 1 at your edited copy.
+#
+# Rules:
+#   - The top-level key must be `scenarios:`.
+#   - Each scenario must define `initial_moles` (a mapping of Cantera species
+#     name -> initial moles). Every species named here must exist in your
+#     species metadata CSV.
+#   - `target_products` (optional) restricts which products are modeled for that
+#     scenario. If omitted, the notebook's global TARGET_PRODUCTS / all
+#     role=product|target species are used.
+#   - `extra_allowed_species` (optional) adds species to the phase without giving
+#     them an initial amount.
+#   - `allowed_species` (optional) overrides the phase species list entirely.
+#   - `description` (optional) is echoed into the run summary.
+scenarios:
+  my_scenario_1:
+    description: "Describe this condition"
+    target_products:
+      - MyProduct(aq)
+    initial_moles:
+      H2O(l): 1.0
+      MyReactant(aq): 0.001
+
+  # my_scenario_2:
+  #   description: "Another condition, all products modeled"
+  #   initial_moles:
+  #     H2O(l): 1.0
+  #     MyReactant(aq): 0.002

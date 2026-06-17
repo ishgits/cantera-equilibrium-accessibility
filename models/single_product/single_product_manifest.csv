@@ -1,0 +1,3 @@
+scenario,model_mode,yaml_path,yaml_file,target_product,allowed_base_species
+validation,single_product,models/single_product/validation/Adenine.yaml,Adenine.yaml,Adenine(aq),H2O(l);HCN(aq);C2H2(aq);NH3(aq)
+validation,single_product,models/single_product/validation/Cytosine.yaml,Cytosine.yaml,Cytosine(aq),H2O(l);HCN(aq);C2H2(aq);NH3(aq)
