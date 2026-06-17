@@ -35,6 +35,11 @@ The reported mole fraction reflects stoichiometric dilution, **not** a ranking o
 products against each other. This is a deliberate design choice — see
 [`docs/USAGE.md`](docs/USAGE.md#interpretation) for the full interpretation guide.
 
+This approach is known as weak coupling. A justification and some further explanation 
+can be found in Madan, I., & Pearce, B. K. D. (2026). *Prebiotic Chemistry Insights for 
+Dragonfly. II. Thermodynamic Favorability of Nucleobases, Ribose, and Fatty Acids in Selk 
+Crater on Titan.* The Planetary Science Journal, 7(5), 107. https://doi.org/10.3847/PSJ/ae5f91.
+
 This workflow reports **thermodynamic accessibility only**. It does not predict
 kinetic rates, reaction pathways, experimental detectability, or synthesis yields.
 
