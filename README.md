@@ -122,6 +122,6 @@ MIT — see [`LICENSE`](LICENSE).
 
 If you use this workflow, please cite it:
 
-Madan, I. (2026). Cantera Equilibrium Accessibility Workflow (Version 1.0.0) [Computer software]. https://doi.org/https://doi.org/10.5281/zenodo.20738207
+Madan, I. (2026). Cantera Equilibrium Accessibility Workflow (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.20738207
 
 See [`CITATION.cff`](CITATION.cff), or use GitHub's "Cite this repository" button.
