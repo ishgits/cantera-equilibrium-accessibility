@@ -186,8 +186,22 @@ The science behind this workflow is developed in:
   Thermodynamic Favorability of Nucleobases, Ribose, and Fatty Acids in Selk Crater on
   Titan.* The Planetary Science Journal, 7(5), 107. https://doi.org/10.3847/PSJ/ae5f91
 
+If you publish results produced with this workflow, please also cite the underlying tools.
+The bundled outputs were generated with Cantera 3.2.0; cite the version you actually run
+(recorded in each study's `run_provenance.json`).
+
+- **Cantera** (equilibrium solver): Goodwin, D. G., Moffat, H. K., Schoegl, I., Speth, R. L.,
+  & Weber, B. W. (2025). *Cantera: An Object-oriented Software Toolkit for Chemical Kinetics,
+  Thermodynamics, and Transport Processes.* Version 3.2.0. https://www.cantera.org.
+  https://doi.org/10.5281/zenodo.17620923
+- **CHNOSZ** (thermodynamic data): Dick, J. M. (2019). *CHNOSZ: Thermodynamic Calculations
+  and Diagrams for Geochemistry.* Frontiers in Earth Science, 7, 180.
+  https://doi.org/10.3389/feart.2019.00180
+- **pyCHNOSZ**: Boyer G. 2024 pyCHNOSZ: python Wrapper for the Thermodynamic Package CHNOSZ, v0.8.15 Zenodo, doi:10.5281/zenodo.11406142
+
 ## Citation
 
 If you use this workflow, please cite the software via
 [`CITATION.cff`](CITATION.cff) (or use GitHub's "Cite this repository" button), and
-cite the papers above where the underlying method is relevant.
+cite the papers above (including Cantera and CHNOSZ) where the underlying method and
+tools are relevant.
