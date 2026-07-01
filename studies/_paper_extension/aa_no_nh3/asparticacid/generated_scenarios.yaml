@@ -1,0 +1,157 @@
+scenarios:
+  ASP_INV_000001:
+    description: asparticacid | inventory_landscape | ASP_INV_000001
+    target_products:
+    - AsparticAcid(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - AsparticAcid(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000001:
+    description: asparticacid | deltaG_sweep | ASP_DG_000001
+    target_products:
+    - AsparticAcid__dG_m200(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - AsparticAcid__dG_m200(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000002:
+    description: asparticacid | deltaG_sweep | ASP_DG_000002
+    target_products:
+    - AsparticAcid__dG_m160(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - AsparticAcid__dG_m160(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000003:
+    description: asparticacid | deltaG_sweep | ASP_DG_000003
+    target_products:
+    - AsparticAcid__dG_m120(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - AsparticAcid__dG_m120(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000004:
+    description: asparticacid | deltaG_sweep | ASP_DG_000004
+    target_products:
+    - AsparticAcid__dG_m080(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - AsparticAcid__dG_m080(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000005:
+    description: asparticacid | deltaG_sweep | ASP_DG_000005
+    target_products:
+    - AsparticAcid__dG_m040(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - AsparticAcid__dG_m040(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000006:
+    description: asparticacid | deltaG_sweep | ASP_DG_000006
+    target_products:
+    - AsparticAcid__dG_000(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - AsparticAcid__dG_000(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000007:
+    description: asparticacid | deltaG_sweep | ASP_DG_000007
+    target_products:
+    - AsparticAcid__dG_p040(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - AsparticAcid__dG_p040(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000008:
+    description: asparticacid | deltaG_sweep | ASP_DG_000008
+    target_products:
+    - AsparticAcid__dG_p080(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - AsparticAcid__dG_p080(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000009:
+    description: asparticacid | deltaG_sweep | ASP_DG_000009
+    target_products:
+    - AsparticAcid__dG_p120(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - AsparticAcid__dG_p120(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000010:
+    description: asparticacid | deltaG_sweep | ASP_DG_000010
+    target_products:
+    - AsparticAcid__dG_p160(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - AsparticAcid__dG_p160(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000011:
+    description: asparticacid | deltaG_sweep | ASP_DG_000011
+    target_products:
+    - AsparticAcid__dG_p200(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - AsparticAcid__dG_p200(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042

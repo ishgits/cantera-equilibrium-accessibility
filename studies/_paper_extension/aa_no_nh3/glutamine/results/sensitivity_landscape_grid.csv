@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,model_id,NH3_mol,HCN_mol,C2H2_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,X_eq,log10_X_eq,n_eq_mol,log10_n_eq_mol,formed_bool,formation_call,solver_status,runtime_seconds
+GLU_DG_000001,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_m200(aq),M_cdac3fa3090e,0.0,0.02,0.042,2.1,-200.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0048228340019704
+GLU_DG_000002,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_m160(aq),M_554e404fce7e,0.0,0.02,0.042,2.1,-160.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0046947500086389
+GLU_DG_000003,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_m120(aq),M_a8993e3a4ae7,0.0,0.02,0.042,2.1,-120.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0049455409898655
+GLU_DG_000004,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_m080(aq),M_26f9f9502b5a,0.0,0.02,0.042,2.1,-80.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045424160052789
+GLU_DG_000005,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_m040(aq),M_b12e04e60f33,0.0,0.02,0.042,2.1,-40.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045684170036111
+GLU_DG_000006,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_000(aq),M_6aeb9e54564f,0.0,0.02,0.042,2.1,0.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.005069042003015
+GLU_DG_000007,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_p040(aq),M_d9cdbc06d2df,0.0,0.02,0.042,2.1,40.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045761670044157
+GLU_DG_000008,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_p080(aq),M_f9da664982ff,0.0,0.02,0.042,2.1,80.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045292909926502
+GLU_DG_000009,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_p120(aq),M_d165786baa11,0.0,0.02,0.042,2.1,120.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.004769833991304
+GLU_DG_000010,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_p160(aq),M_47bc82227f2c,0.0,0.02,0.042,2.1,160.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045769160060444
+GLU_DG_000011,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_p200(aq),M_0ae597c553b4,0.0,0.02,0.042,2.1,200.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0049116669979412
+GLU_INV_000001,glutamine,inventory_landscape,Glutamine(aq),Glutamine(aq),M_5d2f33cf4b42,0.0,0.02,0.042,2.1,0.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0056858750031096

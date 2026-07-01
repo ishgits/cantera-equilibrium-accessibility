@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+GLY_INV_000001,glycine,inventory_landscape,Glycine(aq),Glycine(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,GLY_INV_000001,M_fd585a28ae83,7f8b78154be29d1e
+GLY_DG_000001,glycine,deltaG_sweep,Glycine(aq),Glycine__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,GLY_DG_000001,M_941c33478081,af304c94ee33286f
+GLY_DG_000002,glycine,deltaG_sweep,Glycine(aq),Glycine__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,GLY_DG_000002,M_6aa5c8f8b581,d823e6627477c968
+GLY_DG_000003,glycine,deltaG_sweep,Glycine(aq),Glycine__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,GLY_DG_000003,M_1c6233b310ac,5db0842fa30c246a
+GLY_DG_000004,glycine,deltaG_sweep,Glycine(aq),Glycine__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,GLY_DG_000004,M_59889c0c0415,6dab771b22e02549
+GLY_DG_000005,glycine,deltaG_sweep,Glycine(aq),Glycine__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,GLY_DG_000005,M_7ad1c218c125,46edbe9934814a19
+GLY_DG_000006,glycine,deltaG_sweep,Glycine(aq),Glycine__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,GLY_DG_000006,M_a93047354a8f,f7bca47777642deb
+GLY_DG_000007,glycine,deltaG_sweep,Glycine(aq),Glycine__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,GLY_DG_000007,M_1404202326c6,81204683e2592393
+GLY_DG_000008,glycine,deltaG_sweep,Glycine(aq),Glycine__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,GLY_DG_000008,M_c734cb64f667,4e01292d21f5e03e
+GLY_DG_000009,glycine,deltaG_sweep,Glycine(aq),Glycine__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,GLY_DG_000009,M_43695fe267df,dbab8b4fd2ef55e4
+GLY_DG_000010,glycine,deltaG_sweep,Glycine(aq),Glycine__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,GLY_DG_000010,M_09570386979c,3f6e13cf7593f435
+GLY_DG_000011,glycine,deltaG_sweep,Glycine(aq),Glycine__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,GLY_DG_000011,M_563b6b25b33d,8c15fb4dfe8cce1d

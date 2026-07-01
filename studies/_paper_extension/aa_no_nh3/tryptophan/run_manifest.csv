@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+TRY_INV_000001,TRY_INV_000001,M_4c83a72d8783,models/M_4c83a72d8783.yaml,Tryptophan(aq),Tryptophan(aq),0.0,101325.0,a8ec142da9f96ae4,ok,0.005416125000920147,
+TRY_DG_000001,TRY_DG_000001,M_c23ad6ba9760,models/M_c23ad6ba9760.yaml,Tryptophan(aq),Tryptophan__dG_m200(aq),0.0,101325.0,220dd110c1c11d88,ok,0.004751166998175904,
+TRY_DG_000002,TRY_DG_000002,M_95bf39609032,models/M_95bf39609032.yaml,Tryptophan(aq),Tryptophan__dG_m160(aq),0.0,101325.0,d13e5380d8fc19bb,ok,0.004694292001659051,
+TRY_DG_000003,TRY_DG_000003,M_840bce44ea9e,models/M_840bce44ea9e.yaml,Tryptophan(aq),Tryptophan__dG_m120(aq),0.0,101325.0,2716692a560f4bd9,ok,0.004570707998936996,
+TRY_DG_000004,TRY_DG_000004,M_962ab3fffa4f,models/M_962ab3fffa4f.yaml,Tryptophan(aq),Tryptophan__dG_m080(aq),0.0,101325.0,36e1ea116126ef39,ok,0.004796458000782877,
+TRY_DG_000005,TRY_DG_000005,M_3d153095db2f,models/M_3d153095db2f.yaml,Tryptophan(aq),Tryptophan__dG_m040(aq),0.0,101325.0,76a3dde78cb4d911,ok,0.004644707994884811,
+TRY_DG_000006,TRY_DG_000006,M_b2358965eaa2,models/M_b2358965eaa2.yaml,Tryptophan(aq),Tryptophan__dG_000(aq),0.0,101325.0,6411e68551572261,ok,0.0050437080062692985,
+TRY_DG_000007,TRY_DG_000007,M_770bf431ab81,models/M_770bf431ab81.yaml,Tryptophan(aq),Tryptophan__dG_p040(aq),0.0,101325.0,016064520c7c2579,ok,0.004817584005650133,
+TRY_DG_000008,TRY_DG_000008,M_20ec47f0dead,models/M_20ec47f0dead.yaml,Tryptophan(aq),Tryptophan__dG_p080(aq),0.0,101325.0,e39236ff80481c30,ok,0.004590834010741673,
+TRY_DG_000009,TRY_DG_000009,M_d63c5450caac,models/M_d63c5450caac.yaml,Tryptophan(aq),Tryptophan__dG_p120(aq),0.0,101325.0,5a2f81d6fbcf5026,ok,0.004824165996978991,
+TRY_DG_000010,TRY_DG_000010,M_81dedef9fa51,models/M_81dedef9fa51.yaml,Tryptophan(aq),Tryptophan__dG_p160(aq),0.0,101325.0,56a5ec95577538bd,ok,0.00468383300176356,
+TRY_DG_000011,TRY_DG_000011,M_0e329b59d5d1,models/M_0e329b59d5d1.yaml,Tryptophan(aq),Tryptophan__dG_p200(aq),0.0,101325.0,fe608d4fec4a8bff,ok,0.004581708999467082,

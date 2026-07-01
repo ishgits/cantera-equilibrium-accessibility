@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+GLU_INV_000001,GLU_INV_000001,M_31a821d98b00,models/M_31a821d98b00.yaml,GlutamicAcid(aq),GlutamicAcid(aq),0.0,101325.0,ce763d60019ca1d3,ok,0.005254458999843337,
+GLU_DG_000001,GLU_DG_000001,M_70a6c8e22371,models/M_70a6c8e22371.yaml,GlutamicAcid(aq),GlutamicAcid__dG_m200(aq),0.0,101325.0,7e6c7803463133e3,ok,0.004986291998648085,
+GLU_DG_000002,GLU_DG_000002,M_3780cf991826,models/M_3780cf991826.yaml,GlutamicAcid(aq),GlutamicAcid__dG_m160(aq),0.0,101325.0,5b72083a4c39d4c3,ok,0.004595209000399336,
+GLU_DG_000003,GLU_DG_000003,M_811376ff5945,models/M_811376ff5945.yaml,GlutamicAcid(aq),GlutamicAcid__dG_m120(aq),0.0,101325.0,a0d822f2c45c5a08,ok,0.00456233300792519,
+GLU_DG_000004,GLU_DG_000004,M_8ee64ac99f91,models/M_8ee64ac99f91.yaml,GlutamicAcid(aq),GlutamicAcid__dG_m080(aq),0.0,101325.0,09c29716fc054fff,ok,0.004874708989518695,
+GLU_DG_000005,GLU_DG_000005,M_19899125be23,models/M_19899125be23.yaml,GlutamicAcid(aq),GlutamicAcid__dG_m040(aq),0.0,101325.0,31f6d15f446c7d02,ok,0.004548083001282066,
+GLU_DG_000006,GLU_DG_000006,M_09fa0120f07d,models/M_09fa0120f07d.yaml,GlutamicAcid(aq),GlutamicAcid__dG_000(aq),0.0,101325.0,dfe34f14ae33bb6e,ok,0.0045506669994210824,
+GLU_DG_000007,GLU_DG_000007,M_d95427c597eb,models/M_d95427c597eb.yaml,GlutamicAcid(aq),GlutamicAcid__dG_p040(aq),0.0,101325.0,64b107c2d7b9f623,ok,0.005034791000070982,
+GLU_DG_000008,GLU_DG_000008,M_7de23c8ed6e8,models/M_7de23c8ed6e8.yaml,GlutamicAcid(aq),GlutamicAcid__dG_p080(aq),0.0,101325.0,df8e1915edf577b2,ok,0.004606165995937772,
+GLU_DG_000009,GLU_DG_000009,M_cb4a3b575cfd,models/M_cb4a3b575cfd.yaml,GlutamicAcid(aq),GlutamicAcid__dG_p120(aq),0.0,101325.0,d10efb9aafb9b824,ok,0.004607791997841559,
+GLU_DG_000010,GLU_DG_000010,M_1ddad49816ef,models/M_1ddad49816ef.yaml,GlutamicAcid(aq),GlutamicAcid__dG_p160(aq),0.0,101325.0,4b07911c7f6c3ee6,ok,0.004863708003540523,
+GLU_DG_000011,GLU_DG_000011,M_06a4c136b2e8,models/M_06a4c136b2e8.yaml,GlutamicAcid(aq),GlutamicAcid__dG_p200(aq),0.0,101325.0,8b7c396f19d91032,ok,0.0045852909970562905,

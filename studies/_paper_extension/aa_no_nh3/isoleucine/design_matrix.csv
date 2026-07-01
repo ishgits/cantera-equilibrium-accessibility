@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+ISO_INV_000001,isoleucine,inventory_landscape,Isoleucine(aq),Isoleucine(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,ISO_INV_000001,M_d10749d93c61,5ca720aefb1be3e5
+ISO_DG_000001,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,ISO_DG_000001,M_94833c315665,e5540495849b5a33
+ISO_DG_000002,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,ISO_DG_000002,M_bec6fc80b6e7,69fc534c21797ba3
+ISO_DG_000003,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,ISO_DG_000003,M_f9467c700dd1,9caa1178aa1b2908
+ISO_DG_000004,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,ISO_DG_000004,M_654a3ce1800f,af06b02958d6b009
+ISO_DG_000005,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,ISO_DG_000005,M_c196dee483e1,47b7d5474f968a76
+ISO_DG_000006,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,ISO_DG_000006,M_4242b6c93a22,7c0d85de59cbf4a3
+ISO_DG_000007,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,ISO_DG_000007,M_846a3e625d8b,aa7f03b5d3860fd2
+ISO_DG_000008,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,ISO_DG_000008,M_1bd956b20d01,aa635e51473c41f7
+ISO_DG_000009,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,ISO_DG_000009,M_c324085c6c4b,3c936bff384980e7
+ISO_DG_000010,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,ISO_DG_000010,M_8bcded5611dd,c64dc8c6bed32c9e
+ISO_DG_000011,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,ISO_DG_000011,M_fc374e8cae1c,71f9081ed2276bec

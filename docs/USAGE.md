@@ -296,6 +296,35 @@ Preferred language for results: **equilibrium-accessible**, **above threshold**,
 
 ---
 
+## Sensitivity landscapes (the `studies/` workflow)
+
+Everything above runs one scenario at a time. To map a product's accessibility
+across **many** conditions — inventory grids and exact Gibbs-energy (ΔG) offsets —
+use the sensitivity layer. It reuses this same engine (NASA9 fit → Cantera YAML →
+`equilibrate` → mole reconstruction → formation call); you do not re-learn it.
+
+- **The only file you edit is `studies/<study_id>/study_config.yaml`.** It is
+  declarative and heavily commented: target product, `allowed_species` (the Cantera
+  phase membership — a species at initial 0 is *present-but-zero*, free to form),
+  thresholds, fixed inventory, and the sweeps to enable.
+- **Run it** via the notebook
+  `notebooks/02_sensitivity_landscape_workflow.ipynb` (set `STUDY_CONFIG`, Run All)
+  or the CLI scripts (`new_study.py`, `run_sensitivity_study.py`,
+  `summarize_sensitivity_study.py`, `plot_sensitivity_study.py`). The notebook is a
+  thin viewer over those scripts, so results are identical either way.
+- **ΔG sensitivity is exact, not refit:** a constant Gibbs offset is applied as
+  `a7 += ΔG·1000/R` on both NASA9 segments, shifting `G(T)` by exactly ΔG at every
+  temperature while leaving `Cp`/`S` untouched.
+- **Outputs** land under `studies/<id>/`: `design_matrix.csv`, manifests,
+  per-case `results/*.csv` (tidy, one row per case, all design variables retained),
+  `results/sensitivity_run_summary.md`, a column dictionary `results/SCHEMA.md`,
+  `run_provenance.json`, and `figures/`. Runs are resume-safe — re-running only
+  executes cases that are not yet `ok`.
+
+The bundled `studies/alanine_mvp/` is a complete worked example.
+
+---
+
 ## Troubleshooting
 
 - **`pyCHNOSZ is not installed` / extraction fails for a species.** Either install

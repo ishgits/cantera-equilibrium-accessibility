@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+LYS_INV_000001,LYS_INV_000001,M_730bb12e01ab,models/M_730bb12e01ab.yaml,Lysine(aq),Lysine(aq),0.0,101325.0,6697201106b2b929,ok,0.006565250005223788,
+LYS_DG_000001,LYS_DG_000001,M_27d21f8fc956,models/M_27d21f8fc956.yaml,Lysine(aq),Lysine__dG_m200(aq),0.0,101325.0,cbea40c5c58c77ab,ok,0.008375207995413803,
+LYS_DG_000002,LYS_DG_000002,M_c8e32c6be7ad,models/M_c8e32c6be7ad.yaml,Lysine(aq),Lysine__dG_m160(aq),0.0,101325.0,af90e471eeb345f5,ok,0.00536087500222493,
+LYS_DG_000003,LYS_DG_000003,M_7feae772d5cf,models/M_7feae772d5cf.yaml,Lysine(aq),Lysine__dG_m120(aq),0.0,101325.0,50299af7fce19634,ok,0.00518983299843967,
+LYS_DG_000004,LYS_DG_000004,M_0ae6e4caf8d4,models/M_0ae6e4caf8d4.yaml,Lysine(aq),Lysine__dG_m080(aq),0.0,101325.0,9470d9caf07d06e7,ok,0.004684083993197419,
+LYS_DG_000005,LYS_DG_000005,M_c873ea435fcc,models/M_c873ea435fcc.yaml,Lysine(aq),Lysine__dG_m040(aq),0.0,101325.0,38d2c0b2c44d1345,ok,0.0046533340064343065,
+LYS_DG_000006,LYS_DG_000006,M_01e4d0d684eb,models/M_01e4d0d684eb.yaml,Lysine(aq),Lysine__dG_000(aq),0.0,101325.0,941b9153e935ada3,ok,0.004881583008682355,
+LYS_DG_000007,LYS_DG_000007,M_bff3d5d0aaa9,models/M_bff3d5d0aaa9.yaml,Lysine(aq),Lysine__dG_p040(aq),0.0,101325.0,91e353698d266e41,ok,0.004589291987940669,
+LYS_DG_000008,LYS_DG_000008,M_f88afb06b490,models/M_f88afb06b490.yaml,Lysine(aq),Lysine__dG_p080(aq),0.0,101325.0,5a1a05df20aa258f,ok,0.004574624996166676,
+LYS_DG_000009,LYS_DG_000009,M_3d3519a3d7d0,models/M_3d3519a3d7d0.yaml,Lysine(aq),Lysine__dG_p120(aq),0.0,101325.0,7ee7b1f7770dcb82,ok,0.004708958003902808,
+LYS_DG_000010,LYS_DG_000010,M_aa42e7938809,models/M_aa42e7938809.yaml,Lysine(aq),Lysine__dG_p160(aq),0.0,101325.0,ef6919d9cd64c5b2,ok,0.004717874995549209,
+LYS_DG_000011,LYS_DG_000011,M_99cffa65d1dd,models/M_99cffa65d1dd.yaml,Lysine(aq),Lysine__dG_p200(aq),0.0,101325.0,04d3200a1f17059d,ok,0.004811292004887946,

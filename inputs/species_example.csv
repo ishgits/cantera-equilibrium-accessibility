@@ -5,3 +5,4 @@ c2h2,C2H2(aq),ethyne,C2H2,aq,26.038,reactant,acetylene starting inventory,
 nh3,NH3(aq),NH3,H3N,aq,24.5,reactant,ammonia starting inventory,
 adenine,Adenine(aq),adenine,C5H5N5,aq,135.13,product,target nucleobase,nucleobase
 cytosine,Cytosine(aq),cytosine,C4H5N3O,aq,111.11,product,target nucleobase,nucleobase
+Alanine,Alanine(aq),alanine,C3H7NO2,aq,89.09,product,target amino_acid,amino_acid

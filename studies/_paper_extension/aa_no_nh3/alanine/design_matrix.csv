@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+ALA_INV_000001,alanine,inventory_landscape,Alanine(aq),Alanine(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,ALA_INV_000001,M_25c207616ffd,db8d5a120bf353de
+ALA_DG_000001,alanine,deltaG_sweep,Alanine(aq),Alanine__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,ALA_DG_000001,M_71c27d8880c9,d854a8edf81a65ad
+ALA_DG_000002,alanine,deltaG_sweep,Alanine(aq),Alanine__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,ALA_DG_000002,M_0c4ed732043f,b8d4e888fe803557
+ALA_DG_000003,alanine,deltaG_sweep,Alanine(aq),Alanine__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,ALA_DG_000003,M_5164e0f224d2,bd94f72888ef5d22
+ALA_DG_000004,alanine,deltaG_sweep,Alanine(aq),Alanine__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,ALA_DG_000004,M_022bcb9d6ccd,2e2ac5cdd5b89d00
+ALA_DG_000005,alanine,deltaG_sweep,Alanine(aq),Alanine__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,ALA_DG_000005,M_8e9f165af642,123000c90922d583
+ALA_DG_000006,alanine,deltaG_sweep,Alanine(aq),Alanine__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,ALA_DG_000006,M_ebbe56efa3f6,19888fd20c069b0f
+ALA_DG_000007,alanine,deltaG_sweep,Alanine(aq),Alanine__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,ALA_DG_000007,M_24fd08babd78,ff5f3ee36e7a22a2
+ALA_DG_000008,alanine,deltaG_sweep,Alanine(aq),Alanine__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,ALA_DG_000008,M_d399ff6dcee1,d247aebdbc5e0580
+ALA_DG_000009,alanine,deltaG_sweep,Alanine(aq),Alanine__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,ALA_DG_000009,M_7086743321f2,d2d9b9e417a11c9d
+ALA_DG_000010,alanine,deltaG_sweep,Alanine(aq),Alanine__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,ALA_DG_000010,M_6889725eb5b4,f5c455e684d3300a
+ALA_DG_000011,alanine,deltaG_sweep,Alanine(aq),Alanine__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,ALA_DG_000011,M_27b0c321acbf,2be4581e9e5f6e4c

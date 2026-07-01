@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+ARG_INV_000001,arginine,inventory_landscape,Arginine(aq),Arginine(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,ARG_INV_000001,M_58b98f24a030,238e4ab6de5e1cd1
+ARG_DG_000001,arginine,deltaG_sweep,Arginine(aq),Arginine__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,ARG_DG_000001,M_d1e729cbd51f,ae632320fad7822b
+ARG_DG_000002,arginine,deltaG_sweep,Arginine(aq),Arginine__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,ARG_DG_000002,M_76b51f3c44c6,ee9a1e53ab202e86
+ARG_DG_000003,arginine,deltaG_sweep,Arginine(aq),Arginine__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,ARG_DG_000003,M_1d20c473ca84,dbd3b0c9d63e0180
+ARG_DG_000004,arginine,deltaG_sweep,Arginine(aq),Arginine__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,ARG_DG_000004,M_2b60a948ccc1,7f2936434fa47639
+ARG_DG_000005,arginine,deltaG_sweep,Arginine(aq),Arginine__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,ARG_DG_000005,M_9176e9278e3f,1e6f2dbf2ae9c6b7
+ARG_DG_000006,arginine,deltaG_sweep,Arginine(aq),Arginine__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,ARG_DG_000006,M_d004f5f9d440,f48c93b1b8857011
+ARG_DG_000007,arginine,deltaG_sweep,Arginine(aq),Arginine__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,ARG_DG_000007,M_837873d9c3ce,ebb9bc41d889ace2
+ARG_DG_000008,arginine,deltaG_sweep,Arginine(aq),Arginine__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,ARG_DG_000008,M_55d67ea23f1f,45473806e49b82cc
+ARG_DG_000009,arginine,deltaG_sweep,Arginine(aq),Arginine__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,ARG_DG_000009,M_529b3e75a6f1,9a9fa6e58e8571ff
+ARG_DG_000010,arginine,deltaG_sweep,Arginine(aq),Arginine__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,ARG_DG_000010,M_b72d9a57c241,8556b05ca70a8d43
+ARG_DG_000011,arginine,deltaG_sweep,Arginine(aq),Arginine__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,ARG_DG_000011,M_f72005ef8c75,093ded4a5ab87b93

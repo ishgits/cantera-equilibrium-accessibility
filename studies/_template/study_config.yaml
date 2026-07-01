@@ -1,0 +1,181 @@
+# =============================================================================
+# Sensitivity study — configuration template
+# =============================================================================
+# THIS FILE IS THE ONLY THING YOU EDIT TO RUN A STUDY.
+# It is declarative: change values, save, then run the notebook (Run All) or the
+# CLI (`python scripts/run_sensitivity_study.py --config <this file>`).
+#
+# You do NOT need to edit any Python. Indentation matters in YAML (2 spaces, no
+# tabs). Lines starting with '#' are comments. Always run the design generator
+# with `--dry-run` first to see case counts and grid ranges before launching.
+#
+# Scaffolded by scripts/new_study.py; the study_id/output_dir below are filled in.
+# =============================================================================
+
+study:
+  study_id: __STUDY_ID__
+  description: "Sensitivity study — describe the question here"
+  # All outputs for this study are written under this folder (created if missing).
+  output_dir: studies/__STUDY_ID__
+
+mode:
+  type: single_product_sensitivity
+  # The product whose accessibility we are mapping. Keep this a list (the engine
+  # supports several) but the MVP uses exactly one.
+  target_products:
+    - Alanine(aq)
+  # MVP is single-product: the target never competes against other candidate
+  # products. Leave false unless you deliberately want product-vs-product runs.
+  competitive_products: false
+
+# -----------------------------------------------------------------------------
+# Input data files (paths are relative to the repo root). The target and every
+# reactant/solvent below must have a row in the species CSV AND a G(T) column in
+# the Gibbs seed CSV.
+# -----------------------------------------------------------------------------
+species_files:
+  species_csv: inputs/species_example.csv
+  # Point at any committed wide G(T) seed. The bundled example pair is used here
+  # so a freshly scaffolded study runs from a clean clone; replace with your own.
+  gibbs_seed_wide_csv: inputs/example_validation_gibbs.csv
+
+# -----------------------------------------------------------------------------
+# Base physical conditions (held constant unless a sweep overrides them).
+# -----------------------------------------------------------------------------
+base_conditions:
+  temperature_C: 0           # equilibrium temperature
+  pressure_Pa: 101325        # ~1 bar; matches the existing workflow
+  phase_name: aqueous
+  solver: vcs
+  max_steps: 100000
+
+# -----------------------------------------------------------------------------
+# Phase membership — WHICH species exist in the Cantera model. This is the
+# explicit "is the species in the system at all" control, SEPARATE from initial
+# amounts: a species listed here with initial moles 0 is PRESENT-BUT-ZERO (it
+# starts absent but may still form); a species NOT listed here is FULLY EXCLUDED.
+# The target variant(s) are added automatically.
+# -----------------------------------------------------------------------------
+model:
+  allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - NH3(aq)
+
+# -----------------------------------------------------------------------------
+# Reporting thresholds and quality gate.
+# -----------------------------------------------------------------------------
+thresholds:
+  formation_X_threshold: 1.0e-12     # X_eq >= this -> at least "trace"
+  significant_X_threshold: 1.0e-6    # X_eq >= this -> "significant"
+  formation_n_threshold_mol: 0.0     # optional minimum reconstructed moles
+  balance_tol: 1.0e-6                # element-balance spread above this -> "suspect_balance"
+
+# -----------------------------------------------------------------------------
+# Inventory that stays fixed unless a specific sweep overrides it (initial moles).
+# -----------------------------------------------------------------------------
+fixed_inventory:
+  H2O(l): 1.0
+  HCN(aq): 0.020
+
+# -----------------------------------------------------------------------------
+# Sweeps. Enable only the substudies you want. Run counts depend on each axis's
+# `points:` value; see live counts with:
+#   python scripts/generate_sensitivity_design.py --config <this file> --dry-run
+# Sweep variable types:
+#   linear   (min/max/points)
+#   logspace (min/max/points; actual values, requires min > 0)
+#   explicit (values: [...])
+# -----------------------------------------------------------------------------
+sweeps:
+
+  # (1) Where does the product become accessible vs NH3 and C2H2/HCN?
+  inventory_landscape:
+    enabled: true
+    variables:
+      NH3(aq):
+        type: linear
+        min: 0.0
+        max: 0.15
+        points: 25
+      C2H2_over_HCN:        # C2H2 is set to (ratio * HCN); HCN is fixed above
+        type: linear
+        min: 0.0
+        max: 5.0
+        points: 25
+
+  # (2) How sensitive is accessibility to uncertainty in the product Gibbs energy?
+  #     Applied as an exact constant offset (a7 coefficient shift, dG/R).
+  deltaG_sweep:
+    enabled: false
+    species: Alanine(aq)
+    offsets_kJ_mol:
+      type: linear
+      min: -50
+      max: 50
+      points: 21
+    fixed_inventory:
+      H2O(l): 1.0
+      HCN(aq): 0.020
+      C2H2(aq): 0.042
+      NH3(aq): 0.05
+
+  # (3) Does energetic uncertainty shift the NH3 threshold?
+  nh3_deltaG_landscape:
+    enabled: false
+    variables:
+      NH3(aq):
+        type: linear
+        min: 0.0
+        max: 0.15
+        points: 25
+      deltaG_offset_kJ_mol:
+        type: linear
+        min: -50
+        max: 50
+        points: 21
+    fixed_inventory:
+      H2O(l): 1.0
+      HCN(aq): 0.020
+      C2H2(aq): 0.042
+
+# -----------------------------------------------------------------------------
+# What to save. The core result tables (raw long, moles long, case summary,
+# landscape grid) are ALWAYS written. The toggles below control optional extras.
+# -----------------------------------------------------------------------------
+outputs:
+  write_schema_dictionary: true     # emit results/SCHEMA.md describing every column
+  write_provenance: true            # emit run_provenance.json (versions, hashes, timestamp)
+  make_plots: true                  # generate figures (set false to skip plotting)
+
+# -----------------------------------------------------------------------------
+# Plot styling. Every key is optional; sensible defaults are used if omitted.
+# -----------------------------------------------------------------------------
+plots:
+  formats: [png, pdf]
+  dpi: 600
+  inventory_landscape:
+    title: "Accessibility — NH3 vs C2H2/HCN"
+    x_label: "NH3 (mol)"
+    y_label: "C2H2 / HCN"
+    colorbar_label: "log10 equilibrium mole fraction of target"
+    cmap: viridis
+    vmin: -12
+    vmax: 0
+    threshold_contour_log10X: -12
+    show_failed_as: gray
+  deltaG_sweep:
+    title: "Accessibility vs Gibbs offset (fixed inventory)"
+    x_label: "Delta G offset (kJ/mol)"
+    y_label: "log10 equilibrium mole fraction of target"
+    threshold_line_log10X: -12
+    shade_window_kJ: 20
+  nh3_deltaG_landscape:
+    title: "NH3 threshold vs Gibbs offset"
+    x_label: "NH3 (mol)"
+    y_label: "Delta G offset (kJ/mol)"
+    colorbar_label: "log10 equilibrium mole fraction of target"
+    cmap: viridis
+    threshold_contour_log10X: -12
+    show_failed_as: gray

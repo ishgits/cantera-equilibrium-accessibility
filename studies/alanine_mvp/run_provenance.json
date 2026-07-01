@@ -1,0 +1,18 @@
+{
+  "study_id": "alanine_mvp",
+  "timestamp_utc": "2026-06-26T00:20:14.131542+00:00",
+  "git_sha": null,
+  "versions": {
+    "cantera": "3.2.0",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0"
+  },
+  "config_path": "studies/alanine_mvp/study_config.yaml",
+  "config_sha256": "42d97f33738605a486f18627e6b67deae56bc95758f68bc313585cafc8b83fc3",
+  "gibbs_seed_sha256": "ec0a22c4f3ae4e9569c36bca607d9c9666e222feebccdf23db5a231ea6118b72",
+  "input_hashes": {
+    "species_csv": "810d7bcb69c045e99ccc3d958fa3a976cf76e1a4a0a49191ce3e587827a7ddfc",
+    "gibbs_seed_wide_csv": "ec0a22c4f3ae4e9569c36bca607d9c9666e222feebccdf23db5a231ea6118b72"
+  }
+}

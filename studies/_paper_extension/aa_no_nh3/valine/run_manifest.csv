@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+VAL_INV_000001,VAL_INV_000001,M_3f7c7c74c57c,models/M_3f7c7c74c57c.yaml,Valine(aq),Valine(aq),0.0,101325.0,4197a319a6eb6a90,ok,0.007585542000015266,
+VAL_DG_000001,VAL_DG_000001,M_d1990a765e43,models/M_d1990a765e43.yaml,Valine(aq),Valine__dG_m200(aq),0.0,101325.0,1b4c81a504def35d,ok,0.006084832988562994,
+VAL_DG_000002,VAL_DG_000002,M_a25e054332f8,models/M_a25e054332f8.yaml,Valine(aq),Valine__dG_m160(aq),0.0,101325.0,d41470ab1385de9b,ok,0.005065666002337821,
+VAL_DG_000003,VAL_DG_000003,M_ded54dabe318,models/M_ded54dabe318.yaml,Valine(aq),Valine__dG_m120(aq),0.0,101325.0,3e092eca94146d50,ok,0.005711083009373397,
+VAL_DG_000004,VAL_DG_000004,M_b4debc016989,models/M_b4debc016989.yaml,Valine(aq),Valine__dG_m080(aq),0.0,101325.0,6f7bff8fb767f453,ok,0.005146499999682419,
+VAL_DG_000005,VAL_DG_000005,M_4139a0d3f03b,models/M_4139a0d3f03b.yaml,Valine(aq),Valine__dG_m040(aq),0.0,101325.0,5569aebfc9a121cb,ok,0.005521667000721209,
+VAL_DG_000006,VAL_DG_000006,M_d961f92245ca,models/M_d961f92245ca.yaml,Valine(aq),Valine__dG_000(aq),0.0,101325.0,053848e23c2e551b,ok,0.004950792004819959,
+VAL_DG_000007,VAL_DG_000007,M_e4bf2ab9c717,models/M_e4bf2ab9c717.yaml,Valine(aq),Valine__dG_p040(aq),0.0,101325.0,1060750a0d9e0b9f,ok,0.005092500010505319,
+VAL_DG_000008,VAL_DG_000008,M_ac397ab244df,models/M_ac397ab244df.yaml,Valine(aq),Valine__dG_p080(aq),0.0,101325.0,010649f3a782eb15,ok,0.006042416993295774,
+VAL_DG_000009,VAL_DG_000009,M_c745475c8df3,models/M_c745475c8df3.yaml,Valine(aq),Valine__dG_p120(aq),0.0,101325.0,3cdf17f0dfbc04b7,ok,0.005843708000611514,
+VAL_DG_000010,VAL_DG_000010,M_502a982a80c7,models/M_502a982a80c7.yaml,Valine(aq),Valine__dG_p160(aq),0.0,101325.0,2bd88c48cbb357e5,ok,0.01091570800053887,
+VAL_DG_000011,VAL_DG_000011,M_0b2d77fa3659,models/M_0b2d77fa3659.yaml,Valine(aq),Valine__dG_p200(aq),0.0,101325.0,f72f8778c223aef1,ok,0.006792167012463324,

@@ -1,3 +1,0 @@
-scenario,model_mode,yaml_file,target_product,T_C,T_K,P_Pa,solver_status,error_message,Adenine(aq),C2H2(aq),Cytosine(aq),H2O(l),HCN(aq),NH3(aq)
-validation,single_product,Adenine.yaml,Adenine(aq),20.0,293.15,100000.0,ok,,0.0037523452119672496,0.03939962476488955,,0.9380863039259419,1.8682584460757275e-11,0.018761726078518837
-validation,single_product,Cytosine.yaml,Cytosine(aq),20.0,293.15,100000.0,ok,,,0.037664783427495296,0.005649717514124223,0.9359698681732579,2.306134703640619e-16,0.02071563088512238

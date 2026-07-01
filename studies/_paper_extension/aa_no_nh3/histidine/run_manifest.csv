@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+HIS_INV_000001,HIS_INV_000001,M_b113d255bb9d,models/M_b113d255bb9d.yaml,Histidine(aq),Histidine(aq),0.0,101325.0,686c13819cf829a9,ok,0.005494833007105626,
+HIS_DG_000001,HIS_DG_000001,M_6387c2527f93,models/M_6387c2527f93.yaml,Histidine(aq),Histidine__dG_m200(aq),0.0,101325.0,849547662316f2cd,ok,0.004622332999133505,
+HIS_DG_000002,HIS_DG_000002,M_6e35453e2641,models/M_6e35453e2641.yaml,Histidine(aq),Histidine__dG_m160(aq),0.0,101325.0,54088337109a02c8,ok,0.004562999994959682,
+HIS_DG_000003,HIS_DG_000003,M_b928fb036b92,models/M_b928fb036b92.yaml,Histidine(aq),Histidine__dG_m120(aq),0.0,101325.0,a13fd6147b702a5a,ok,0.00479825001093559,
+HIS_DG_000004,HIS_DG_000004,M_3cf40f04aa7d,models/M_3cf40f04aa7d.yaml,Histidine(aq),Histidine__dG_m080(aq),0.0,101325.0,6b798bb0b27fce41,ok,0.004629832998034544,
+HIS_DG_000005,HIS_DG_000005,M_384ef57a2c08,models/M_384ef57a2c08.yaml,Histidine(aq),Histidine__dG_m040(aq),0.0,101325.0,36c9db3fe976e441,ok,0.004797374989720993,
+HIS_DG_000006,HIS_DG_000006,M_b523a2c99228,models/M_b523a2c99228.yaml,Histidine(aq),Histidine__dG_000(aq),0.0,101325.0,98175adb9dbf5101,ok,0.0045514999947045,
+HIS_DG_000007,HIS_DG_000007,M_c509c6a73671,models/M_c509c6a73671.yaml,Histidine(aq),Histidine__dG_p040(aq),0.0,101325.0,7c05425af771d545,ok,0.0045767499977955595,
+HIS_DG_000008,HIS_DG_000008,M_76aefa92e69c,models/M_76aefa92e69c.yaml,Histidine(aq),Histidine__dG_p080(aq),0.0,101325.0,a8c9e7d4bff1d4a6,ok,0.0049801669956650585,
+HIS_DG_000009,HIS_DG_000009,M_f4c393140d0e,models/M_f4c393140d0e.yaml,Histidine(aq),Histidine__dG_p120(aq),0.0,101325.0,a709d9252d25d3e4,ok,0.004579000000376254,
+HIS_DG_000010,HIS_DG_000010,M_622b79fabd9c,models/M_622b79fabd9c.yaml,Histidine(aq),Histidine__dG_p160(aq),0.0,101325.0,44bcdf34b7936d5a,ok,0.004568249991280027,
+HIS_DG_000011,HIS_DG_000011,M_adc129284044,models/M_adc129284044.yaml,Histidine(aq),Histidine__dG_p200(aq),0.0,101325.0,2c4805534860510e,ok,0.004811291990336031,

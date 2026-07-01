@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+VAL_INV_000001,valine,inventory_landscape,Valine(aq),Valine(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,VAL_INV_000001,M_3f7c7c74c57c,4197a319a6eb6a90
+VAL_DG_000001,valine,deltaG_sweep,Valine(aq),Valine__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,VAL_DG_000001,M_d1990a765e43,1b4c81a504def35d
+VAL_DG_000002,valine,deltaG_sweep,Valine(aq),Valine__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,VAL_DG_000002,M_a25e054332f8,d41470ab1385de9b
+VAL_DG_000003,valine,deltaG_sweep,Valine(aq),Valine__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,VAL_DG_000003,M_ded54dabe318,3e092eca94146d50
+VAL_DG_000004,valine,deltaG_sweep,Valine(aq),Valine__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,VAL_DG_000004,M_b4debc016989,6f7bff8fb767f453
+VAL_DG_000005,valine,deltaG_sweep,Valine(aq),Valine__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,VAL_DG_000005,M_4139a0d3f03b,5569aebfc9a121cb
+VAL_DG_000006,valine,deltaG_sweep,Valine(aq),Valine__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,VAL_DG_000006,M_d961f92245ca,053848e23c2e551b
+VAL_DG_000007,valine,deltaG_sweep,Valine(aq),Valine__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,VAL_DG_000007,M_e4bf2ab9c717,1060750a0d9e0b9f
+VAL_DG_000008,valine,deltaG_sweep,Valine(aq),Valine__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,VAL_DG_000008,M_ac397ab244df,010649f3a782eb15
+VAL_DG_000009,valine,deltaG_sweep,Valine(aq),Valine__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,VAL_DG_000009,M_c745475c8df3,3cdf17f0dfbc04b7
+VAL_DG_000010,valine,deltaG_sweep,Valine(aq),Valine__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,VAL_DG_000010,M_502a982a80c7,2bd88c48cbb357e5
+VAL_DG_000011,valine,deltaG_sweep,Valine(aq),Valine__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,VAL_DG_000011,M_0b2d77fa3659,f72f8778c223aef1

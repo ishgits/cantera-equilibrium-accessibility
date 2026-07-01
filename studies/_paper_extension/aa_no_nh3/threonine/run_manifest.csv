@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+THR_INV_000001,THR_INV_000001,M_2f9766376563,models/M_2f9766376563.yaml,Threonine(aq),Threonine(aq),0.0,101325.0,adf0b4e417b4bedf,ok,0.006068084010621533,
+THR_DG_000001,THR_DG_000001,M_94aecd2438b9,models/M_94aecd2438b9.yaml,Threonine(aq),Threonine__dG_m200(aq),0.0,101325.0,bf162d1be2924092,ok,0.004978541997843422,
+THR_DG_000002,THR_DG_000002,M_8fb51f4c70bb,models/M_8fb51f4c70bb.yaml,Threonine(aq),Threonine__dG_m160(aq),0.0,101325.0,58dbb7d5b74d9333,ok,0.00571562499681022,
+THR_DG_000003,THR_DG_000003,M_25af2a4f8037,models/M_25af2a4f8037.yaml,Threonine(aq),Threonine__dG_m120(aq),0.0,101325.0,e5ac805d6d4d3fa9,ok,0.004883333996986039,
+THR_DG_000004,THR_DG_000004,M_9c0882dbf10d,models/M_9c0882dbf10d.yaml,Threonine(aq),Threonine__dG_m080(aq),0.0,101325.0,2b953266535ca8a5,ok,0.005371833001845516,
+THR_DG_000005,THR_DG_000005,M_3e1eef217b08,models/M_3e1eef217b08.yaml,Threonine(aq),Threonine__dG_m040(aq),0.0,101325.0,3882de52a49bea1b,ok,0.005162959001609124,
+THR_DG_000006,THR_DG_000006,M_2b9981fcb4d2,models/M_2b9981fcb4d2.yaml,Threonine(aq),Threonine__dG_000(aq),0.0,101325.0,8895eb195c4f98d7,ok,0.004808792000403628,
+THR_DG_000007,THR_DG_000007,M_0e7d4508245f,models/M_0e7d4508245f.yaml,Threonine(aq),Threonine__dG_p040(aq),0.0,101325.0,12c48e9da5648b28,ok,0.005401249989517964,
+THR_DG_000008,THR_DG_000008,M_e0ccaf07d54d,models/M_e0ccaf07d54d.yaml,Threonine(aq),Threonine__dG_p080(aq),0.0,101325.0,097ff32a02aa918f,ok,0.004782457996043377,
+THR_DG_000009,THR_DG_000009,M_9dd79293b418,models/M_9dd79293b418.yaml,Threonine(aq),Threonine__dG_p120(aq),0.0,101325.0,57b7a286cd34252c,ok,0.005466916991281323,
+THR_DG_000010,THR_DG_000010,M_bb3bfc4e9f01,models/M_bb3bfc4e9f01.yaml,Threonine(aq),Threonine__dG_p160(aq),0.0,101325.0,0c859bc209b86c32,ok,0.011298041004920378,
+THR_DG_000011,THR_DG_000011,M_2923a1d93922,models/M_2923a1d93922.yaml,Threonine(aq),Threonine__dG_p200(aq),0.0,101325.0,13b4974872c5d024,ok,0.006131292000645772,

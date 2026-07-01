@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+ARG_INV_000001,ARG_INV_000001,M_58b98f24a030,models/M_58b98f24a030.yaml,Arginine(aq),Arginine(aq),0.0,101325.0,238e4ab6de5e1cd1,ok,0.005403582996223122,
+ARG_DG_000001,ARG_DG_000001,M_d1e729cbd51f,models/M_d1e729cbd51f.yaml,Arginine(aq),Arginine__dG_m200(aq),0.0,101325.0,ae632320fad7822b,ok,0.004706708001322113,
+ARG_DG_000002,ARG_DG_000002,M_76b51f3c44c6,models/M_76b51f3c44c6.yaml,Arginine(aq),Arginine__dG_m160(aq),0.0,101325.0,ee9a1e53ab202e86,ok,0.004986790998373181,
+ARG_DG_000003,ARG_DG_000003,M_1d20c473ca84,models/M_1d20c473ca84.yaml,Arginine(aq),Arginine__dG_m120(aq),0.0,101325.0,dbd3b0c9d63e0180,ok,0.0046072080003796145,
+ARG_DG_000004,ARG_DG_000004,M_2b60a948ccc1,models/M_2b60a948ccc1.yaml,Arginine(aq),Arginine__dG_m080(aq),0.0,101325.0,7f2936434fa47639,ok,0.0045546670007752255,
+ARG_DG_000005,ARG_DG_000005,M_9176e9278e3f,models/M_9176e9278e3f.yaml,Arginine(aq),Arginine__dG_m040(aq),0.0,101325.0,1e6f2dbf2ae9c6b7,ok,0.004833125000004657,
+ARG_DG_000006,ARG_DG_000006,M_d004f5f9d440,models/M_d004f5f9d440.yaml,Arginine(aq),Arginine__dG_000(aq),0.0,101325.0,f48c93b1b8857011,ok,0.0046211250009946525,
+ARG_DG_000007,ARG_DG_000007,M_837873d9c3ce,models/M_837873d9c3ce.yaml,Arginine(aq),Arginine__dG_p040(aq),0.0,101325.0,ebb9bc41d889ace2,ok,0.004960709004080854,
+ARG_DG_000008,ARG_DG_000008,M_55d67ea23f1f,models/M_55d67ea23f1f.yaml,Arginine(aq),Arginine__dG_p080(aq),0.0,101325.0,45473806e49b82cc,ok,0.004695709008956328,
+ARG_DG_000009,ARG_DG_000009,M_529b3e75a6f1,models/M_529b3e75a6f1.yaml,Arginine(aq),Arginine__dG_p120(aq),0.0,101325.0,9a9fa6e58e8571ff,ok,0.005047334008850157,
+ARG_DG_000010,ARG_DG_000010,M_b72d9a57c241,models/M_b72d9a57c241.yaml,Arginine(aq),Arginine__dG_p160(aq),0.0,101325.0,8556b05ca70a8d43,ok,0.004551583013380878,
+ARG_DG_000011,ARG_DG_000011,M_f72005ef8c75,models/M_f72005ef8c75.yaml,Arginine(aq),Arginine__dG_p200(aq),0.0,101325.0,093ded4a5ab87b93,ok,0.0044752079993486404,

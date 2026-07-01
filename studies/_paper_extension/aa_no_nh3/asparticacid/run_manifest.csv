@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+ASP_INV_000001,ASP_INV_000001,M_6af61cbef57b,models/M_6af61cbef57b.yaml,AsparticAcid(aq),AsparticAcid(aq),0.0,101325.0,2e75a069f41436d2,ok,0.005383124997024424,
+ASP_DG_000001,ASP_DG_000001,M_aa62807504ef,models/M_aa62807504ef.yaml,AsparticAcid(aq),AsparticAcid__dG_m200(aq),0.0,101325.0,f880b0850496bee8,ok,0.004621208994649351,
+ASP_DG_000002,ASP_DG_000002,M_14b3d9f882bb,models/M_14b3d9f882bb.yaml,AsparticAcid(aq),AsparticAcid__dG_m160(aq),0.0,101325.0,10ed55de5f369f5c,ok,0.005112250000820495,
+ASP_DG_000003,ASP_DG_000003,M_1063b90802d3,models/M_1063b90802d3.yaml,AsparticAcid(aq),AsparticAcid__dG_m120(aq),0.0,101325.0,a557df867463deb1,ok,0.0045932909997645766,
+ASP_DG_000004,ASP_DG_000004,M_1dec64a15217,models/M_1dec64a15217.yaml,AsparticAcid(aq),AsparticAcid__dG_m080(aq),0.0,101325.0,4311ea7a90dfb63f,ok,0.004543041999568231,
+ASP_DG_000005,ASP_DG_000005,M_cf89d0e8e894,models/M_cf89d0e8e894.yaml,AsparticAcid(aq),AsparticAcid__dG_m040(aq),0.0,101325.0,5a59aec59021dabc,ok,0.0048002910043578595,
+ASP_DG_000006,ASP_DG_000006,M_2936ebb3ccd6,models/M_2936ebb3ccd6.yaml,AsparticAcid(aq),AsparticAcid__dG_000(aq),0.0,101325.0,6d7430a9d4d24deb,ok,0.004512917003012262,
+ASP_DG_000007,ASP_DG_000007,M_20c07d505589,models/M_20c07d505589.yaml,AsparticAcid(aq),AsparticAcid__dG_p040(aq),0.0,101325.0,20e5705c8eb0d5c4,ok,0.004597666003974155,
+ASP_DG_000008,ASP_DG_000008,M_d2e525d1778e,models/M_d2e525d1778e.yaml,AsparticAcid(aq),AsparticAcid__dG_p080(aq),0.0,101325.0,08afda51b269bc40,ok,0.004754082998260856,
+ASP_DG_000009,ASP_DG_000009,M_10b9a4847049,models/M_10b9a4847049.yaml,AsparticAcid(aq),AsparticAcid__dG_p120(aq),0.0,101325.0,9a02c9faa41acf75,ok,0.004523708004853688,
+ASP_DG_000010,ASP_DG_000010,M_677232a1e361,models/M_677232a1e361.yaml,AsparticAcid(aq),AsparticAcid__dG_p160(aq),0.0,101325.0,8f7d74d05081bda7,ok,0.004637791993445717,
+ASP_DG_000011,ASP_DG_000011,M_730a58f059e5,models/M_730a58f059e5.yaml,AsparticAcid(aq),AsparticAcid__dG_p200(aq),0.0,101325.0,51a60df06deee737,ok,0.0045128339988878,

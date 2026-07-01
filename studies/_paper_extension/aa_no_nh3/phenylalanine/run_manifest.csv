@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+PHE_INV_000001,PHE_INV_000001,M_7ad335bcbf00,models/M_7ad335bcbf00.yaml,Phenylalanine(aq),Phenylalanine(aq),0.0,101325.0,a5d69835b5ff281e,ok,0.0054174170072656125,
+PHE_DG_000001,PHE_DG_000001,M_5536af72b50a,models/M_5536af72b50a.yaml,Phenylalanine(aq),Phenylalanine__dG_m200(aq),0.0,101325.0,6f57595c687d1648,ok,0.004666584005462937,
+PHE_DG_000002,PHE_DG_000002,M_d45350bf60ed,models/M_d45350bf60ed.yaml,Phenylalanine(aq),Phenylalanine__dG_m160(aq),0.0,101325.0,a08ba850a34ab426,ok,0.004654667005524971,
+PHE_DG_000003,PHE_DG_000003,M_82818de67c5b,models/M_82818de67c5b.yaml,Phenylalanine(aq),Phenylalanine__dG_m120(aq),0.0,101325.0,71e8ae310e368b6e,ok,0.004559125009109266,
+PHE_DG_000004,PHE_DG_000004,M_b4fefb38379a,models/M_b4fefb38379a.yaml,Phenylalanine(aq),Phenylalanine__dG_m080(aq),0.0,101325.0,1f0d5557a7b8d3d1,ok,0.00473224998859223,
+PHE_DG_000005,PHE_DG_000005,M_92c74a1cc6b8,models/M_92c74a1cc6b8.yaml,Phenylalanine(aq),Phenylalanine__dG_m040(aq),0.0,101325.0,560bb9cbe2799dc0,ok,0.004519041001913138,
+PHE_DG_000006,PHE_DG_000006,M_d0affe0b9d72,models/M_d0affe0b9d72.yaml,Phenylalanine(aq),Phenylalanine__dG_000(aq),0.0,101325.0,59b64b1524dba8d0,ok,0.004575624989229254,
+PHE_DG_000007,PHE_DG_000007,M_c91a1f87fe88,models/M_c91a1f87fe88.yaml,Phenylalanine(aq),Phenylalanine__dG_p040(aq),0.0,101325.0,c44aad35c3100e42,ok,0.00496329199813772,
+PHE_DG_000008,PHE_DG_000008,M_250169f49a55,models/M_250169f49a55.yaml,Phenylalanine(aq),Phenylalanine__dG_p080(aq),0.0,101325.0,49f59cbe77f9f5d3,ok,0.004759624993312173,
+PHE_DG_000009,PHE_DG_000009,M_cdeab8ac49e1,models/M_cdeab8ac49e1.yaml,Phenylalanine(aq),Phenylalanine__dG_p120(aq),0.0,101325.0,fb2f42f75c235625,ok,0.004553083999780938,
+PHE_DG_000010,PHE_DG_000010,M_785085d1f145,models/M_785085d1f145.yaml,Phenylalanine(aq),Phenylalanine__dG_p160(aq),0.0,101325.0,762b866e315c25a6,ok,0.004915458004688844,
+PHE_DG_000011,PHE_DG_000011,M_c28df8060be7,models/M_c28df8060be7.yaml,Phenylalanine(aq),Phenylalanine__dG_p200(aq),0.0,101325.0,12f9555263aeef4f,ok,0.004593624995322898,

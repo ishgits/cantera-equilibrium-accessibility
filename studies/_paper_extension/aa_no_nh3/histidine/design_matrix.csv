@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+HIS_INV_000001,histidine,inventory_landscape,Histidine(aq),Histidine(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,HIS_INV_000001,M_b113d255bb9d,686c13819cf829a9
+HIS_DG_000001,histidine,deltaG_sweep,Histidine(aq),Histidine__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,HIS_DG_000001,M_6387c2527f93,849547662316f2cd
+HIS_DG_000002,histidine,deltaG_sweep,Histidine(aq),Histidine__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,HIS_DG_000002,M_6e35453e2641,54088337109a02c8
+HIS_DG_000003,histidine,deltaG_sweep,Histidine(aq),Histidine__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,HIS_DG_000003,M_b928fb036b92,a13fd6147b702a5a
+HIS_DG_000004,histidine,deltaG_sweep,Histidine(aq),Histidine__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,HIS_DG_000004,M_3cf40f04aa7d,6b798bb0b27fce41
+HIS_DG_000005,histidine,deltaG_sweep,Histidine(aq),Histidine__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,HIS_DG_000005,M_384ef57a2c08,36c9db3fe976e441
+HIS_DG_000006,histidine,deltaG_sweep,Histidine(aq),Histidine__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,HIS_DG_000006,M_b523a2c99228,98175adb9dbf5101
+HIS_DG_000007,histidine,deltaG_sweep,Histidine(aq),Histidine__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,HIS_DG_000007,M_c509c6a73671,7c05425af771d545
+HIS_DG_000008,histidine,deltaG_sweep,Histidine(aq),Histidine__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,HIS_DG_000008,M_76aefa92e69c,a8c9e7d4bff1d4a6
+HIS_DG_000009,histidine,deltaG_sweep,Histidine(aq),Histidine__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,HIS_DG_000009,M_f4c393140d0e,a709d9252d25d3e4
+HIS_DG_000010,histidine,deltaG_sweep,Histidine(aq),Histidine__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,HIS_DG_000010,M_622b79fabd9c,44bcdf34b7936d5a
+HIS_DG_000011,histidine,deltaG_sweep,Histidine(aq),Histidine__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,HIS_DG_000011,M_adc129284044,2c4805534860510e

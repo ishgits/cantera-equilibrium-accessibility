@@ -6,7 +6,7 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Iterable, List, Optional, Sequence
+from typing import Optional, Sequence
 
 import numpy as np
 import pandas as pd
@@ -84,19 +84,33 @@ def find_missing_rows(cache_df: pd.DataFrame, species_df: pd.DataFrame, temperat
     return missing.reset_index(drop=True)
 
 
-def _extract_single_species_with_pychNOSZ(chnosz_name: str, state: str, temperatures_C: Sequence[float], exceed_Ttr: bool) -> pd.DataFrame:
-    """Call pyCHNOSZ.subcrt and return its output dataframe for one species."""
+def _import_pychnosz():
+    """Import the CHNOSZ Python bridge under either spelling.
+
+    The package was published as ``pyCHNOSZ`` in early releases and as ``pychnosz``
+    (lowercase) from v1.3.0; support both so extraction works across versions.
+    """
     try:
-        import pyCHNOSZ as pcz
+        import pyCHNOSZ as pcz  # noqa: N813
+        return pcz
+    except ImportError:
+        pass
+    try:
+        import pychnosz as pcz
+        return pcz
     except ImportError as exc:
         raise ImportError(
-            "pyCHNOSZ is not installed in this environment. Install it or pre-populate "
+            "pyCHNOSZ/pychnosz is not installed in this environment. Install it "
+            "(pip install pychnosz, needs R + the CHNOSZ package) or pre-populate "
             "data/raw/chnosz_gibbs_cache.csv before running extraction."
         ) from exc
 
+
+def _extract_single_species_with_pychNOSZ(chnosz_name: str, state: str, temperatures_C: Sequence[float], exceed_Ttr: bool) -> pd.DataFrame:
+    """Call CHNOSZ ``subcrt`` and return its output dataframe for one species."""
+    pcz = _import_pychnosz()
+
     kwargs = dict(property="G", T=list(temperatures_C), exceed_Ttr=exceed_Ttr)
-    state_clean = str(state).strip()
-    
     state_clean = str(state).strip().lower()
     state_map = {
         "aqueous": "aq",
@@ -107,13 +121,19 @@ def _extract_single_species_with_pychNOSZ(chnosz_name: str, state: str, temperat
         kwargs["state"] = state_map.get(state_clean, state_clean)
 
     data = pcz.subcrt(chnosz_name, **kwargs)
-    if data is None or not getattr(data, "out", None):
+    out = getattr(data, "out", None)
+    if out is None:
         raise ValueError(f"No CHNOSZ data returned for {chnosz_name!r} state={state!r}.")
 
-    if chnosz_name in data.out:
-        return data.out[chnosz_name].copy()
-    # Fallback: take the first returned table.
-    return next(iter(data.out.values())).copy()
+    # pychnosz >= 1.3 returns a single DataFrame for a single species; earlier
+    # versions return a dict keyed by species name.
+    if isinstance(out, pd.DataFrame):
+        return out.copy()
+    if isinstance(out, dict):
+        if chnosz_name in out:
+            return out[chnosz_name].copy()
+        return next(iter(out.values())).copy()
+    raise ValueError(f"Unexpected CHNOSZ subcrt output type for {chnosz_name!r}: {type(out)}")
 
 
 def extract_missing_rows(

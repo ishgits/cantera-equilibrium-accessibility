@@ -1,0 +1,19 @@
+{
+  "study_id": "asparticacid",
+  "timestamp_utc": "2026-06-29T18:36:02.217940+00:00",
+  "git_sha": null,
+  "versions": {
+    "cantera": "3.2.0",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0"
+  },
+  "config_path": "studies/aa_nh3/asparticacid/study_config.yaml",
+  "config_relpath": "studies/aa_nh3/asparticacid/study_config.yaml",
+  "config_sha256": "0d12fbdf69c538ce7d16b7f053822cc23cc355aa67e94827bf483dc4c76e326a",
+  "gibbs_seed_sha256": "a161af0618563039c311ef8498004efdecfdce76c88fb41bba0a5ca64a0d7a19",
+  "input_hashes": {
+    "species_csv": "652d436b316744be16123ec7f784a5962264b05350f993fe2b8aa34358e060cf",
+    "gibbs_seed_wide_csv": "a161af0618563039c311ef8498004efdecfdce76c88fb41bba0a5ca64a0d7a19"
+  }
+}

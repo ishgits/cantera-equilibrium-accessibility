@@ -1,0 +1,469 @@
+scenarios:
+  ASP_INV_000001:
+    description: asparagine | inventory_landscape | ASP_INV_000001
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.0
+  ASP_INV_000002:
+    description: asparagine | inventory_landscape | ASP_INV_000002
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.004166666666666667
+  ASP_INV_000003:
+    description: asparagine | inventory_landscape | ASP_INV_000003
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.008333333333333333
+  ASP_INV_000004:
+    description: asparagine | inventory_landscape | ASP_INV_000004
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.0125
+  ASP_INV_000005:
+    description: asparagine | inventory_landscape | ASP_INV_000005
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.016666666666666666
+  ASP_INV_000006:
+    description: asparagine | inventory_landscape | ASP_INV_000006
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.020833333333333336
+  ASP_INV_000007:
+    description: asparagine | inventory_landscape | ASP_INV_000007
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.025
+  ASP_INV_000008:
+    description: asparagine | inventory_landscape | ASP_INV_000008
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.02916666666666667
+  ASP_INV_000009:
+    description: asparagine | inventory_landscape | ASP_INV_000009
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.03333333333333333
+  ASP_INV_000010:
+    description: asparagine | inventory_landscape | ASP_INV_000010
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.0375
+  ASP_INV_000011:
+    description: asparagine | inventory_landscape | ASP_INV_000011
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.04166666666666667
+  ASP_INV_000012:
+    description: asparagine | inventory_landscape | ASP_INV_000012
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.04583333333333334
+  ASP_INV_000013:
+    description: asparagine | inventory_landscape | ASP_INV_000013
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.05
+  ASP_INV_000014:
+    description: asparagine | inventory_landscape | ASP_INV_000014
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.05416666666666667
+  ASP_INV_000015:
+    description: asparagine | inventory_landscape | ASP_INV_000015
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.05833333333333334
+  ASP_INV_000016:
+    description: asparagine | inventory_landscape | ASP_INV_000016
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.0625
+  ASP_INV_000017:
+    description: asparagine | inventory_landscape | ASP_INV_000017
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.06666666666666667
+  ASP_INV_000018:
+    description: asparagine | inventory_landscape | ASP_INV_000018
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.07083333333333335
+  ASP_INV_000019:
+    description: asparagine | inventory_landscape | ASP_INV_000019
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.075
+  ASP_INV_000020:
+    description: asparagine | inventory_landscape | ASP_INV_000020
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.07916666666666668
+  ASP_INV_000021:
+    description: asparagine | inventory_landscape | ASP_INV_000021
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.08333333333333334
+  ASP_INV_000022:
+    description: asparagine | inventory_landscape | ASP_INV_000022
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.08750000000000001
+  ASP_INV_000023:
+    description: asparagine | inventory_landscape | ASP_INV_000023
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.09166666666666667
+  ASP_INV_000024:
+    description: asparagine | inventory_landscape | ASP_INV_000024
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.09583333333333334
+  ASP_INV_000025:
+    description: asparagine | inventory_landscape | ASP_INV_000025
+    target_products:
+    - Asparagine(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.1
+  ASP_DG_000001:
+    description: asparagine | deltaG_sweep | ASP_DG_000001
+    target_products:
+    - Asparagine__dG_m200(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine__dG_m200(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000002:
+    description: asparagine | deltaG_sweep | ASP_DG_000002
+    target_products:
+    - Asparagine__dG_m160(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine__dG_m160(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000003:
+    description: asparagine | deltaG_sweep | ASP_DG_000003
+    target_products:
+    - Asparagine__dG_m120(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine__dG_m120(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000004:
+    description: asparagine | deltaG_sweep | ASP_DG_000004
+    target_products:
+    - Asparagine__dG_m080(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine__dG_m080(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000005:
+    description: asparagine | deltaG_sweep | ASP_DG_000005
+    target_products:
+    - Asparagine__dG_m040(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine__dG_m040(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000006:
+    description: asparagine | deltaG_sweep | ASP_DG_000006
+    target_products:
+    - Asparagine__dG_000(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine__dG_000(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000007:
+    description: asparagine | deltaG_sweep | ASP_DG_000007
+    target_products:
+    - Asparagine__dG_p040(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine__dG_p040(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000008:
+    description: asparagine | deltaG_sweep | ASP_DG_000008
+    target_products:
+    - Asparagine__dG_p080(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine__dG_p080(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000009:
+    description: asparagine | deltaG_sweep | ASP_DG_000009
+    target_products:
+    - Asparagine__dG_p120(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine__dG_p120(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000010:
+    description: asparagine | deltaG_sweep | ASP_DG_000010
+    target_products:
+    - Asparagine__dG_p160(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine__dG_p160(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042
+  ASP_DG_000011:
+    description: asparagine | deltaG_sweep | ASP_DG_000011
+    target_products:
+    - Asparagine__dG_p200(aq)
+    allowed_species:
+    - H2O(l)
+    - HCN(aq)
+    - C2H2(aq)
+    - Asparagine__dG_p200(aq)
+    initial_moles:
+      H2O(l): 1.0
+      HCN(aq): 0.02
+      C2H2(aq): 0.042

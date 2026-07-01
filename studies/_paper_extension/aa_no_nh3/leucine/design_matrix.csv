@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+LEU_INV_000001,leucine,inventory_landscape,Leucine(aq),Leucine(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,LEU_INV_000001,M_2a835c89809e,7febbe80f6fd9f88
+LEU_DG_000001,leucine,deltaG_sweep,Leucine(aq),Leucine__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,LEU_DG_000001,M_46badc090e0c,7d4154eda4f49d96
+LEU_DG_000002,leucine,deltaG_sweep,Leucine(aq),Leucine__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,LEU_DG_000002,M_cc2df8c8963f,8843f2d6abe54d6d
+LEU_DG_000003,leucine,deltaG_sweep,Leucine(aq),Leucine__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,LEU_DG_000003,M_d706f7b0d2e1,52b0fcf97e962956
+LEU_DG_000004,leucine,deltaG_sweep,Leucine(aq),Leucine__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,LEU_DG_000004,M_25dfc803a819,19c0bed1bfc8ed7b
+LEU_DG_000005,leucine,deltaG_sweep,Leucine(aq),Leucine__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,LEU_DG_000005,M_e6e5ba8d68ac,c46c9277da1347f5
+LEU_DG_000006,leucine,deltaG_sweep,Leucine(aq),Leucine__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,LEU_DG_000006,M_4f50ea1ef6e9,ff93f6753349661d
+LEU_DG_000007,leucine,deltaG_sweep,Leucine(aq),Leucine__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,LEU_DG_000007,M_4cc8692aa922,0d086535d7d81663
+LEU_DG_000008,leucine,deltaG_sweep,Leucine(aq),Leucine__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,LEU_DG_000008,M_f00b92de8ea4,8ef857ee51397d2f
+LEU_DG_000009,leucine,deltaG_sweep,Leucine(aq),Leucine__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,LEU_DG_000009,M_658b6ae07cc8,51c4c6d2b52852ce
+LEU_DG_000010,leucine,deltaG_sweep,Leucine(aq),Leucine__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,LEU_DG_000010,M_81af16903341,a759eb2c998ec0ca
+LEU_DG_000011,leucine,deltaG_sweep,Leucine(aq),Leucine__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,LEU_DG_000011,M_683f71d97406,2cb6f86459d4eb67

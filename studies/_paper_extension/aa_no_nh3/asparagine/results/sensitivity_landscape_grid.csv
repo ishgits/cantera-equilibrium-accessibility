@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,model_id,NH3_mol,HCN_mol,C2H2_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,X_eq,log10_X_eq,n_eq_mol,log10_n_eq_mol,formed_bool,formation_call,solver_status,runtime_seconds
+ASP_DG_000001,asparagine,deltaG_sweep,Asparagine(aq),Asparagine__dG_m200(aq),M_8c2f2490fa53,0.0,0.02,0.042,2.1,-200.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0055100829922594
+ASP_DG_000002,asparagine,deltaG_sweep,Asparagine(aq),Asparagine__dG_m160(aq),M_82a85ae07985,0.0,0.02,0.042,2.1,-160.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0049133339925901
+ASP_DG_000003,asparagine,deltaG_sweep,Asparagine(aq),Asparagine__dG_m120(aq),M_e4e053e5ba40,0.0,0.02,0.042,2.1,-120.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0048328330012736
+ASP_DG_000004,asparagine,deltaG_sweep,Asparagine(aq),Asparagine__dG_m080(aq),M_d8f5dbd5fe13,0.0,0.02,0.042,2.1,-80.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0049472500104457
+ASP_DG_000005,asparagine,deltaG_sweep,Asparagine(aq),Asparagine__dG_m040(aq),M_7b4502af506c,0.0,0.02,0.042,2.1,-40.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0053472089930437
+ASP_DG_000006,asparagine,deltaG_sweep,Asparagine(aq),Asparagine__dG_000(aq),M_188f0e335dd0,0.0,0.02,0.042,2.1,0.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0050272500084247
+ASP_DG_000007,asparagine,deltaG_sweep,Asparagine(aq),Asparagine__dG_p040(aq),M_edc9736db57f,0.0,0.02,0.042,2.1,40.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0055074160045478
+ASP_DG_000008,asparagine,deltaG_sweep,Asparagine(aq),Asparagine__dG_p080(aq),M_42268cdf9e22,0.0,0.02,0.042,2.1,80.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0049834999954327
+ASP_DG_000009,asparagine,deltaG_sweep,Asparagine(aq),Asparagine__dG_p120(aq),M_6a3284cfd345,0.0,0.02,0.042,2.1,120.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0050647500029299
+ASP_DG_000010,asparagine,deltaG_sweep,Asparagine(aq),Asparagine__dG_p160(aq),M_ab1a251e40f1,0.0,0.02,0.042,2.1,160.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0049693329929141
+ASP_DG_000011,asparagine,deltaG_sweep,Asparagine(aq),Asparagine__dG_p200(aq),M_95592f0f6ec2,0.0,0.02,0.042,2.1,200.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0049395829992135
+ASP_INV_000001,asparagine,inventory_landscape,Asparagine(aq),Asparagine(aq),M_c354fc1b9c8e,0.0,0.02,0.042,2.1,0.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0064792920020408

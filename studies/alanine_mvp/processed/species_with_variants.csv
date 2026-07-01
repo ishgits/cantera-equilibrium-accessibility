@@ -1,0 +1,19 @@
+species_key,cantera_name,chnosz_name,formula,state,molar_volume_cm3_mol,role,notes,product_class
+h2o,H2O(l),water,H2O,liq,18.015,solvent,liquid water basis species,
+hcn,HCN(aq),HCN,CHN,aq,23.9,reactant,hydrogen cyanide starting inventory,
+c2h2,C2H2(aq),ethyne,C2H2,aq,26.038,reactant,acetylene starting inventory,
+nh3,NH3(aq),NH3,H3N,aq,24.5,reactant,ammonia starting inventory,
+adenine,Adenine(aq),adenine,C5H5N5,aq,135.13,product,target nucleobase,nucleobase
+cytosine,Cytosine(aq),cytosine,C4H5N3O,aq,111.11,product,target nucleobase,nucleobase
+Alanine,Alanine(aq),alanine,C3H7NO2,aq,89.09,product,target amino_acid,amino_acid
+Alanine__dG_m200,Alanine__dG_m200(aq),alanine,C3H7NO2,aq,89.09,product,ΔG sensitivity variant of Alanine(aq): -200 kJ/mol Gibbs offset,amino_acid
+Alanine__dG_m160,Alanine__dG_m160(aq),alanine,C3H7NO2,aq,89.09,product,ΔG sensitivity variant of Alanine(aq): -160 kJ/mol Gibbs offset,amino_acid
+Alanine__dG_m120,Alanine__dG_m120(aq),alanine,C3H7NO2,aq,89.09,product,ΔG sensitivity variant of Alanine(aq): -120 kJ/mol Gibbs offset,amino_acid
+Alanine__dG_m080,Alanine__dG_m080(aq),alanine,C3H7NO2,aq,89.09,product,ΔG sensitivity variant of Alanine(aq): -80 kJ/mol Gibbs offset,amino_acid
+Alanine__dG_m040,Alanine__dG_m040(aq),alanine,C3H7NO2,aq,89.09,product,ΔG sensitivity variant of Alanine(aq): -40 kJ/mol Gibbs offset,amino_acid
+Alanine__dG_000,Alanine__dG_000(aq),alanine,C3H7NO2,aq,89.09,product,ΔG sensitivity variant of Alanine(aq): +0 kJ/mol Gibbs offset,amino_acid
+Alanine__dG_p040,Alanine__dG_p040(aq),alanine,C3H7NO2,aq,89.09,product,ΔG sensitivity variant of Alanine(aq): +40 kJ/mol Gibbs offset,amino_acid
+Alanine__dG_p080,Alanine__dG_p080(aq),alanine,C3H7NO2,aq,89.09,product,ΔG sensitivity variant of Alanine(aq): +80 kJ/mol Gibbs offset,amino_acid
+Alanine__dG_p120,Alanine__dG_p120(aq),alanine,C3H7NO2,aq,89.09,product,ΔG sensitivity variant of Alanine(aq): +120 kJ/mol Gibbs offset,amino_acid
+Alanine__dG_p160,Alanine__dG_p160(aq),alanine,C3H7NO2,aq,89.09,product,ΔG sensitivity variant of Alanine(aq): +160 kJ/mol Gibbs offset,amino_acid
+Alanine__dG_p200,Alanine__dG_p200(aq),alanine,C3H7NO2,aq,89.09,product,ΔG sensitivity variant of Alanine(aq): +200 kJ/mol Gibbs offset,amino_acid

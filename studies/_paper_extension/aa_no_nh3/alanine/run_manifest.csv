@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+ALA_INV_000001,ALA_INV_000001,M_25c207616ffd,models/M_25c207616ffd.yaml,Alanine(aq),Alanine(aq),0.0,101325.0,db8d5a120bf353de,ok,0.006837708002422005,
+ALA_DG_000001,ALA_DG_000001,M_71c27d8880c9,models/M_71c27d8880c9.yaml,Alanine(aq),Alanine__dG_m200(aq),0.0,101325.0,d854a8edf81a65ad,ok,0.0052136250014882535,
+ALA_DG_000002,ALA_DG_000002,M_0c4ed732043f,models/M_0c4ed732043f.yaml,Alanine(aq),Alanine__dG_m160(aq),0.0,101325.0,b8d4e888fe803557,ok,0.004804334006621502,
+ALA_DG_000003,ALA_DG_000003,M_5164e0f224d2,models/M_5164e0f224d2.yaml,Alanine(aq),Alanine__dG_m120(aq),0.0,101325.0,bd94f72888ef5d22,ok,0.004719709002529271,
+ALA_DG_000004,ALA_DG_000004,M_022bcb9d6ccd,models/M_022bcb9d6ccd.yaml,Alanine(aq),Alanine__dG_m080(aq),0.0,101325.0,2e2ac5cdd5b89d00,ok,0.004910832998575643,
+ALA_DG_000005,ALA_DG_000005,M_8e9f165af642,models/M_8e9f165af642.yaml,Alanine(aq),Alanine__dG_m040(aq),0.0,101325.0,123000c90922d583,ok,0.005936250003287569,
+ALA_DG_000006,ALA_DG_000006,M_ebbe56efa3f6,models/M_ebbe56efa3f6.yaml,Alanine(aq),Alanine__dG_000(aq),0.0,101325.0,19888fd20c069b0f,ok,0.005519415994058363,
+ALA_DG_000007,ALA_DG_000007,M_24fd08babd78,models/M_24fd08babd78.yaml,Alanine(aq),Alanine__dG_p040(aq),0.0,101325.0,ff5f3ee36e7a22a2,ok,0.005771083990111947,
+ALA_DG_000008,ALA_DG_000008,M_d399ff6dcee1,models/M_d399ff6dcee1.yaml,Alanine(aq),Alanine__dG_p080(aq),0.0,101325.0,d247aebdbc5e0580,ok,0.004593833000399172,
+ALA_DG_000009,ALA_DG_000009,M_7086743321f2,models/M_7086743321f2.yaml,Alanine(aq),Alanine__dG_p120(aq),0.0,101325.0,d2d9b9e417a11c9d,ok,0.005031624998082407,
+ALA_DG_000010,ALA_DG_000010,M_6889725eb5b4,models/M_6889725eb5b4.yaml,Alanine(aq),Alanine__dG_p160(aq),0.0,101325.0,f5c455e684d3300a,ok,0.004676833996200003,
+ALA_DG_000011,ALA_DG_000011,M_27b0c321acbf,models/M_27b0c321acbf.yaml,Alanine(aq),Alanine__dG_p200(aq),0.0,101325.0,2be4581e9e5f6e4c,ok,0.004637124991859309,
