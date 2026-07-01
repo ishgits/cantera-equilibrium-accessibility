@@ -13,8 +13,8 @@ authors:
   - given-names: Ishaan
     family-names: Madan
     email: madan_ishaan@wheatoncollege.edu
-version: "1.0.0"
-date-released: "2026-06-17"
+version: "2.0.0"
+date-released: "2026-07-01"
 license: MIT
 keywords:
   - cantera
@@ -25,4 +25,4 @@ keywords:
   - prebiotic-chemistry
 repository-code: "https://github.com/ishgits/cantera-equilibrium-accessibility"
 url: "https://github.com/ishgits/cantera-equilibrium-accessibility"
-doi: "10.5281/zenodo.20738207"
+doi: "10.5281/zenodo.20738206"

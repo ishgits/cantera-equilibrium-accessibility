@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,model_id,NH3_mol,HCN_mol,C2H2_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,X_eq,log10_X_eq,n_eq_mol,log10_n_eq_mol,formed_bool,formation_call,solver_status,runtime_seconds
+ISO_DG_000001,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_m200(aq),M_94833c315665,0.0,0.02,0.042,2.1,-200.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.005423749986221
+ISO_DG_000002,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_m160(aq),M_bec6fc80b6e7,0.0,0.02,0.042,2.1,-160.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0054623750038445
+ISO_DG_000003,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_m120(aq),M_f9467c700dd1,0.0,0.02,0.042,2.1,-120.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0050722500018309
+ISO_DG_000004,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_m080(aq),M_654a3ce1800f,0.0,0.02,0.042,2.1,-80.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0046128340036375
+ISO_DG_000005,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_m040(aq),M_c196dee483e1,0.0,0.02,0.042,2.1,-40.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045978329872014
+ISO_DG_000006,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_000(aq),M_4242b6c93a22,0.0,0.02,0.042,2.1,0.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0049710830062394
+ISO_DG_000007,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_p040(aq),M_846a3e625d8b,0.0,0.02,0.042,2.1,40.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0046619579952675
+ISO_DG_000008,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_p080(aq),M_1bd956b20d01,0.0,0.02,0.042,2.1,80.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045486250019166
+ISO_DG_000009,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_p120(aq),M_c324085c6c4b,0.0,0.02,0.042,2.1,120.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0049030829977709
+ISO_DG_000010,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_p160(aq),M_8bcded5611dd,0.0,0.02,0.042,2.1,160.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0050222909922013
+ISO_DG_000011,isoleucine,deltaG_sweep,Isoleucine(aq),Isoleucine__dG_p200(aq),M_fc374e8cae1c,0.0,0.02,0.042,2.1,200.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.005059541988885
+ISO_INV_000001,isoleucine,inventory_landscape,Isoleucine(aq),Isoleucine(aq),M_d10749d93c61,0.0,0.02,0.042,2.1,0.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0053453330037882

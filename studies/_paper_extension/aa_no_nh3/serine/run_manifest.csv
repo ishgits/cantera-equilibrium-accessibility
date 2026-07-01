@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+SER_INV_000001,SER_INV_000001,M_07624ddcdcb4,models/M_07624ddcdcb4.yaml,Serine(aq),Serine(aq),0.0,101325.0,88da7bed4bfa7992,ok,0.00563004199648276,
+SER_DG_000001,SER_DG_000001,M_12bb5cd0866b,models/M_12bb5cd0866b.yaml,Serine(aq),Serine__dG_m200(aq),0.0,101325.0,79c18ad002bb9ef1,ok,0.004702999998698942,
+SER_DG_000002,SER_DG_000002,M_9e5f96880d0f,models/M_9e5f96880d0f.yaml,Serine(aq),Serine__dG_m160(aq),0.0,101325.0,9a4b1d1716cf194f,ok,0.005294040995067917,
+SER_DG_000003,SER_DG_000003,M_e9b802487ca1,models/M_e9b802487ca1.yaml,Serine(aq),Serine__dG_m120(aq),0.0,101325.0,d5a924cb776ddd1e,ok,0.004716208000900224,
+SER_DG_000004,SER_DG_000004,M_a35f9c8205b8,models/M_a35f9c8205b8.yaml,Serine(aq),Serine__dG_m080(aq),0.0,101325.0,97df093f58dfc901,ok,0.0045439999958034605,
+SER_DG_000005,SER_DG_000005,M_4e91a3626ec4,models/M_4e91a3626ec4.yaml,Serine(aq),Serine__dG_m040(aq),0.0,101325.0,271e4dec8d38bffc,ok,0.005138916996656917,
+SER_DG_000006,SER_DG_000006,M_c511aeaf6536,models/M_c511aeaf6536.yaml,Serine(aq),Serine__dG_000(aq),0.0,101325.0,aad1a32c6fb3bebc,ok,0.004688417000579648,
+SER_DG_000007,SER_DG_000007,M_8e357b472e4c,models/M_8e357b472e4c.yaml,Serine(aq),Serine__dG_p040(aq),0.0,101325.0,642d4646191bede7,ok,0.004530999998678453,
+SER_DG_000008,SER_DG_000008,M_415f87c44da3,models/M_415f87c44da3.yaml,Serine(aq),Serine__dG_p080(aq),0.0,101325.0,8e9a28f51eeaa803,ok,0.004875875005382113,
+SER_DG_000009,SER_DG_000009,M_a7280b0028c4,models/M_a7280b0028c4.yaml,Serine(aq),Serine__dG_p120(aq),0.0,101325.0,add442a475dd3c1e,ok,0.004934374999720603,
+SER_DG_000010,SER_DG_000010,M_f7fb4a768e78,models/M_f7fb4a768e78.yaml,Serine(aq),Serine__dG_p160(aq),0.0,101325.0,52d6aafaad563edf,ok,0.004538499997579493,
+SER_DG_000011,SER_DG_000011,M_9443c46a39df,models/M_9443c46a39df.yaml,Serine(aq),Serine__dG_p200(aq),0.0,101325.0,6c4a8b0e6094ee9d,ok,0.004661417013267055,

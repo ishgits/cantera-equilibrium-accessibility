@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+TYR_INV_000001,TYR_INV_000001,M_3f3272a8ab8d,models/M_3f3272a8ab8d.yaml,Tyrosine(aq),Tyrosine(aq),0.0,101325.0,6a1d11400caefcdf,ok,0.0053631250048056245,
+TYR_DG_000001,TYR_DG_000001,M_ffde0ec1126b,models/M_ffde0ec1126b.yaml,Tyrosine(aq),Tyrosine__dG_m200(aq),0.0,101325.0,03b6b29441f10ca7,ok,0.004809749996638857,
+TYR_DG_000002,TYR_DG_000002,M_b54bf49d38ea,models/M_b54bf49d38ea.yaml,Tyrosine(aq),Tyrosine__dG_m160(aq),0.0,101325.0,a99375817b6b5b85,ok,0.005128167002112605,
+TYR_DG_000003,TYR_DG_000003,M_eb84077f6ff9,models/M_eb84077f6ff9.yaml,Tyrosine(aq),Tyrosine__dG_m120(aq),0.0,101325.0,c8286e8f1227ab24,ok,0.004768041995703243,
+TYR_DG_000004,TYR_DG_000004,M_40f58ec6fd93,models/M_40f58ec6fd93.yaml,Tyrosine(aq),Tyrosine__dG_m080(aq),0.0,101325.0,6d0c4e9771a1107d,ok,0.0046207919949665666,
+TYR_DG_000005,TYR_DG_000005,M_4ca4051e722b,models/M_4ca4051e722b.yaml,Tyrosine(aq),Tyrosine__dG_m040(aq),0.0,101325.0,56c17b783d533868,ok,0.005022915996960364,
+TYR_DG_000006,TYR_DG_000006,M_6f391d545b11,models/M_6f391d545b11.yaml,Tyrosine(aq),Tyrosine__dG_000(aq),0.0,101325.0,899cb04d0b5123e7,ok,0.004667083005188033,
+TYR_DG_000007,TYR_DG_000007,M_60ff7e4d5d83,models/M_60ff7e4d5d83.yaml,Tyrosine(aq),Tyrosine__dG_p040(aq),0.0,101325.0,71b21a0622f60464,ok,0.005053583008702844,
+TYR_DG_000008,TYR_DG_000008,M_467b9fc47391,models/M_467b9fc47391.yaml,Tyrosine(aq),Tyrosine__dG_p080(aq),0.0,101325.0,ccfe1fb0321c1fbc,ok,0.004596250000759028,
+TYR_DG_000009,TYR_DG_000009,M_4f2cb03e3701,models/M_4f2cb03e3701.yaml,Tyrosine(aq),Tyrosine__dG_p120(aq),0.0,101325.0,9987ca59e9406a32,ok,0.004689374996814877,
+TYR_DG_000010,TYR_DG_000010,M_950418fb8037,models/M_950418fb8037.yaml,Tyrosine(aq),Tyrosine__dG_p160(aq),0.0,101325.0,1abf496b445670fa,ok,0.004861042005359195,
+TYR_DG_000011,TYR_DG_000011,M_e773909868c2,models/M_e773909868c2.yaml,Tyrosine(aq),Tyrosine__dG_p200(aq),0.0,101325.0,bf557bd28ba0bd39,ok,0.004602708999300376,

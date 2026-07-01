@@ -1,0 +1,12 @@
+thermo_variant_id,base_species,variant_species,deltaG_offset_kJ_mol
+dG_m200,Tryptophan(aq),Tryptophan__dG_m200(aq),-200.0
+dG_m160,Tryptophan(aq),Tryptophan__dG_m160(aq),-160.0
+dG_m120,Tryptophan(aq),Tryptophan__dG_m120(aq),-120.0
+dG_m080,Tryptophan(aq),Tryptophan__dG_m080(aq),-80.0
+dG_m040,Tryptophan(aq),Tryptophan__dG_m040(aq),-40.0
+dG_000,Tryptophan(aq),Tryptophan__dG_000(aq),0.0
+dG_p040,Tryptophan(aq),Tryptophan__dG_p040(aq),40.0
+dG_p080,Tryptophan(aq),Tryptophan__dG_p080(aq),80.0
+dG_p120,Tryptophan(aq),Tryptophan__dG_p120(aq),120.0
+dG_p160,Tryptophan(aq),Tryptophan__dG_p160(aq),160.0
+dG_p200,Tryptophan(aq),Tryptophan__dG_p200(aq),200.0

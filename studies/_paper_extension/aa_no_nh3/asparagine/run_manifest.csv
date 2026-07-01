@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+ASP_INV_000001,ASP_INV_000001,M_c354fc1b9c8e,models/M_c354fc1b9c8e.yaml,Asparagine(aq),Asparagine(aq),0.0,101325.0,c8ad39d14b1f541b,ok,0.006479292002040893,
+ASP_DG_000001,ASP_DG_000001,M_8c2f2490fa53,models/M_8c2f2490fa53.yaml,Asparagine(aq),Asparagine__dG_m200(aq),0.0,101325.0,5ba0c282ba9f6e17,ok,0.005510082992259413,
+ASP_DG_000002,ASP_DG_000002,M_82a85ae07985,models/M_82a85ae07985.yaml,Asparagine(aq),Asparagine__dG_m160(aq),0.0,101325.0,dddad63bf46e360a,ok,0.004913333992590196,
+ASP_DG_000003,ASP_DG_000003,M_e4e053e5ba40,models/M_e4e053e5ba40.yaml,Asparagine(aq),Asparagine__dG_m120(aq),0.0,101325.0,b86db0212135e4ec,ok,0.004832833001273684,
+ASP_DG_000004,ASP_DG_000004,M_d8f5dbd5fe13,models/M_d8f5dbd5fe13.yaml,Asparagine(aq),Asparagine__dG_m080(aq),0.0,101325.0,6f53962b4dcffc29,ok,0.004947250010445714,
+ASP_DG_000005,ASP_DG_000005,M_7b4502af506c,models/M_7b4502af506c.yaml,Asparagine(aq),Asparagine__dG_m040(aq),0.0,101325.0,206b250d32cabd35,ok,0.0053472089930437505,
+ASP_DG_000006,ASP_DG_000006,M_188f0e335dd0,models/M_188f0e335dd0.yaml,Asparagine(aq),Asparagine__dG_000(aq),0.0,101325.0,ca45f8166c6647d9,ok,0.005027250008424744,
+ASP_DG_000007,ASP_DG_000007,M_edc9736db57f,models/M_edc9736db57f.yaml,Asparagine(aq),Asparagine__dG_p040(aq),0.0,101325.0,f4c027b07799bef4,ok,0.005507416004547849,
+ASP_DG_000008,ASP_DG_000008,M_42268cdf9e22,models/M_42268cdf9e22.yaml,Asparagine(aq),Asparagine__dG_p080(aq),0.0,101325.0,b9f353baf74cb76e,ok,0.004983499995432794,
+ASP_DG_000009,ASP_DG_000009,M_6a3284cfd345,models/M_6a3284cfd345.yaml,Asparagine(aq),Asparagine__dG_p120(aq),0.0,101325.0,c02418a61e7de293,ok,0.005064750002929941,
+ASP_DG_000010,ASP_DG_000010,M_ab1a251e40f1,models/M_ab1a251e40f1.yaml,Asparagine(aq),Asparagine__dG_p160(aq),0.0,101325.0,9513fd837bb15cd8,ok,0.004969332992914133,
+ASP_DG_000011,ASP_DG_000011,M_95592f0f6ec2,models/M_95592f0f6ec2.yaml,Asparagine(aq),Asparagine__dG_p200(aq),0.0,101325.0,c2c1b858a5d9822c,ok,0.004939582999213599,

@@ -1,0 +1,510 @@
+{
+  "sensitivity_case_summary.csv": {
+    "study_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Study identifier (folder name under studies/)."
+    },
+    "substudy_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Substudy: inventory_landscape, deltaG_sweep, or nh3_deltaG_landscape."
+    },
+    "target_product": {
+      "dtype": "str",
+      "units": "",
+      "description": "Original target product, e.g. Alanine(aq)."
+    },
+    "target_variant": {
+      "dtype": "str",
+      "units": "",
+      "description": "Cantera species actually modelled (base name or \u0394G pseudo-species)."
+    },
+    "model_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Hashed Cantera model identity (one YAML reused across grid points)."
+    },
+    "T_C": {
+      "dtype": "float64",
+      "units": "deg C",
+      "description": "Equilibrium temperature."
+    },
+    "P_Pa": {
+      "dtype": "float64",
+      "units": "Pa",
+      "description": "Equilibrium pressure."
+    },
+    "runtime_seconds": {
+      "dtype": "float64",
+      "units": "s",
+      "description": "Wall-clock runtime for the case."
+    },
+    "H2O_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of water (solvent basis)."
+    },
+    "HCN_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of hydrogen cyanide."
+    },
+    "C2H2_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of acetylene."
+    },
+    "NH3_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of ammonia."
+    },
+    "C2H2_over_HCN": {
+      "dtype": "float64",
+      "units": "ratio",
+      "description": "Initial C2H2/HCN mole ratio (derived design variable)."
+    },
+    "deltaG_offset_kJ_mol": {
+      "dtype": "float64",
+      "units": "kJ/mol",
+      "description": "Gibbs-energy offset applied to the target species."
+    },
+    "case_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Unique simulation case identifier (canonical run key)."
+    },
+    "X_eq": {
+      "dtype": "float64",
+      "units": "mole fraction",
+      "description": "Equilibrium mole fraction of the (target) species."
+    },
+    "log10_X_eq": {
+      "dtype": "float64",
+      "units": "log10 mole fraction",
+      "description": "log10(X_eq); NaN when X_eq <= 0 or missing."
+    },
+    "n_eq_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Reconstructed equilibrium moles of the species."
+    },
+    "log10_n_eq_mol": {
+      "dtype": "float64",
+      "units": "log10 mol",
+      "description": "log10(n_eq_mol); NaN when non-positive/missing."
+    },
+    "formed_bool": {
+      "dtype": "bool",
+      "units": "",
+      "description": "True if the target is equilibrium-accessible above threshold."
+    },
+    "formation_call": {
+      "dtype": "str",
+      "units": "",
+      "description": "significant | trace | below_threshold | solver_failed."
+    },
+    "solver_status": {
+      "dtype": "str",
+      "units": "",
+      "description": "Equilibrium solver outcome: ok or failed."
+    },
+    "error_message": {
+      "dtype": "str",
+      "units": "",
+      "description": "Solver/setup error message when the case failed."
+    },
+    "element_balance_relative_spread": {
+      "dtype": "float64",
+      "units": "",
+      "description": "Relative spread of per-element total-mole estimates (QC)."
+    },
+    "suspect_balance": {
+      "dtype": "bool",
+      "units": "",
+      "description": "True when element_balance_relative_spread exceeds balance_tol."
+    }
+  },
+  "sensitivity_landscape_grid.csv": {
+    "case_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Unique simulation case identifier (canonical run key)."
+    },
+    "study_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Study identifier (folder name under studies/)."
+    },
+    "substudy_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Substudy: inventory_landscape, deltaG_sweep, or nh3_deltaG_landscape."
+    },
+    "target_product": {
+      "dtype": "str",
+      "units": "",
+      "description": "Original target product, e.g. Alanine(aq)."
+    },
+    "target_variant": {
+      "dtype": "str",
+      "units": "",
+      "description": "Cantera species actually modelled (base name or \u0394G pseudo-species)."
+    },
+    "model_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Hashed Cantera model identity (one YAML reused across grid points)."
+    },
+    "NH3_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of ammonia."
+    },
+    "HCN_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of hydrogen cyanide."
+    },
+    "C2H2_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of acetylene."
+    },
+    "C2H2_over_HCN": {
+      "dtype": "float64",
+      "units": "ratio",
+      "description": "Initial C2H2/HCN mole ratio (derived design variable)."
+    },
+    "deltaG_offset_kJ_mol": {
+      "dtype": "float64",
+      "units": "kJ/mol",
+      "description": "Gibbs-energy offset applied to the target species."
+    },
+    "T_C": {
+      "dtype": "float64",
+      "units": "deg C",
+      "description": "Equilibrium temperature."
+    },
+    "P_Pa": {
+      "dtype": "float64",
+      "units": "Pa",
+      "description": "Equilibrium pressure."
+    },
+    "X_eq": {
+      "dtype": "float64",
+      "units": "mole fraction",
+      "description": "Equilibrium mole fraction of the (target) species."
+    },
+    "log10_X_eq": {
+      "dtype": "float64",
+      "units": "log10 mole fraction",
+      "description": "log10(X_eq); NaN when X_eq <= 0 or missing."
+    },
+    "n_eq_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Reconstructed equilibrium moles of the species."
+    },
+    "log10_n_eq_mol": {
+      "dtype": "float64",
+      "units": "log10 mol",
+      "description": "log10(n_eq_mol); NaN when non-positive/missing."
+    },
+    "formed_bool": {
+      "dtype": "bool",
+      "units": "",
+      "description": "True if the target is equilibrium-accessible above threshold."
+    },
+    "formation_call": {
+      "dtype": "str",
+      "units": "",
+      "description": "significant | trace | below_threshold | solver_failed."
+    },
+    "solver_status": {
+      "dtype": "str",
+      "units": "",
+      "description": "Equilibrium solver outcome: ok or failed."
+    },
+    "runtime_seconds": {
+      "dtype": "float64",
+      "units": "s",
+      "description": "Wall-clock runtime for the case."
+    }
+  },
+  "equilibrium_raw_long.csv": {
+    "scenario": {
+      "dtype": "str",
+      "units": "",
+      "description": "Scenario id carried from the base runner (equals case_id)."
+    },
+    "model_mode": {
+      "dtype": "str",
+      "units": "",
+      "description": "Model mode tag, e.g. single_product_sensitivity."
+    },
+    "yaml_file": {
+      "dtype": "str",
+      "units": "",
+      "description": "Cantera YAML file name used for the case."
+    },
+    "target_product": {
+      "dtype": "str",
+      "units": "",
+      "description": "Original target product, e.g. Alanine(aq)."
+    },
+    "T_C": {
+      "dtype": "float64",
+      "units": "deg C",
+      "description": "Equilibrium temperature."
+    },
+    "T_K": {
+      "dtype": "float64",
+      "units": "K",
+      "description": "Equilibrium temperature in Kelvin."
+    },
+    "P_Pa": {
+      "dtype": "float64",
+      "units": "Pa",
+      "description": "Equilibrium pressure."
+    },
+    "species": {
+      "dtype": "str",
+      "units": "",
+      "description": "Cantera species name for this row (long-form tables)."
+    },
+    "X_initial": {
+      "dtype": "float64",
+      "units": "mole fraction",
+      "description": "Initial mole fraction supplied to the solver."
+    },
+    "X_eq": {
+      "dtype": "float64",
+      "units": "mole fraction",
+      "description": "Equilibrium mole fraction of the (target) species."
+    },
+    "initial_moles": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of the species in the scenario."
+    },
+    "solver_status": {
+      "dtype": "str",
+      "units": "",
+      "description": "Equilibrium solver outcome: ok or failed."
+    },
+    "error_message": {
+      "dtype": "str",
+      "units": "",
+      "description": "Solver/setup error message when the case failed."
+    },
+    "case_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Unique simulation case identifier (canonical run key)."
+    },
+    "model_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Hashed Cantera model identity (one YAML reused across grid points)."
+    },
+    "target_variant": {
+      "dtype": "str",
+      "units": "",
+      "description": "Cantera species actually modelled (base name or \u0394G pseudo-species)."
+    },
+    "runtime_seconds": {
+      "dtype": "float64",
+      "units": "s",
+      "description": "Wall-clock runtime for the case."
+    },
+    "study_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Study identifier (folder name under studies/)."
+    },
+    "substudy_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Substudy: inventory_landscape, deltaG_sweep, or nh3_deltaG_landscape."
+    },
+    "H2O_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of water (solvent basis)."
+    },
+    "HCN_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of hydrogen cyanide."
+    },
+    "C2H2_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of acetylene."
+    },
+    "NH3_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of ammonia."
+    },
+    "C2H2_over_HCN": {
+      "dtype": "float64",
+      "units": "ratio",
+      "description": "Initial C2H2/HCN mole ratio (derived design variable)."
+    },
+    "deltaG_offset_kJ_mol": {
+      "dtype": "float64",
+      "units": "kJ/mol",
+      "description": "Gibbs-energy offset applied to the target species."
+    }
+  },
+  "equilibrium_moles_long.csv": {
+    "scenario": {
+      "dtype": "str",
+      "units": "",
+      "description": "Scenario id carried from the base runner (equals case_id)."
+    },
+    "model_mode": {
+      "dtype": "str",
+      "units": "",
+      "description": "Model mode tag, e.g. single_product_sensitivity."
+    },
+    "yaml_file": {
+      "dtype": "str",
+      "units": "",
+      "description": "Cantera YAML file name used for the case."
+    },
+    "target_product": {
+      "dtype": "str",
+      "units": "",
+      "description": "Original target product, e.g. Alanine(aq)."
+    },
+    "T_C": {
+      "dtype": "float64",
+      "units": "deg C",
+      "description": "Equilibrium temperature."
+    },
+    "T_K": {
+      "dtype": "float64",
+      "units": "K",
+      "description": "Equilibrium temperature in Kelvin."
+    },
+    "P_Pa": {
+      "dtype": "float64",
+      "units": "Pa",
+      "description": "Equilibrium pressure."
+    },
+    "species": {
+      "dtype": "str",
+      "units": "",
+      "description": "Cantera species name for this row (long-form tables)."
+    },
+    "X_initial": {
+      "dtype": "float64",
+      "units": "mole fraction",
+      "description": "Initial mole fraction supplied to the solver."
+    },
+    "X_eq": {
+      "dtype": "float64",
+      "units": "mole fraction",
+      "description": "Equilibrium mole fraction of the (target) species."
+    },
+    "initial_moles": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of the species in the scenario."
+    },
+    "solver_status": {
+      "dtype": "str",
+      "units": "",
+      "description": "Equilibrium solver outcome: ok or failed."
+    },
+    "error_message": {
+      "dtype": "str",
+      "units": "",
+      "description": "Solver/setup error message when the case failed."
+    },
+    "case_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Unique simulation case identifier (canonical run key)."
+    },
+    "model_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Hashed Cantera model identity (one YAML reused across grid points)."
+    },
+    "target_variant": {
+      "dtype": "str",
+      "units": "",
+      "description": "Cantera species actually modelled (base name or \u0394G pseudo-species)."
+    },
+    "runtime_seconds": {
+      "dtype": "float64",
+      "units": "s",
+      "description": "Wall-clock runtime for the case."
+    },
+    "study_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Study identifier (folder name under studies/)."
+    },
+    "substudy_id": {
+      "dtype": "str",
+      "units": "",
+      "description": "Substudy: inventory_landscape, deltaG_sweep, or nh3_deltaG_landscape."
+    },
+    "H2O_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of water (solvent basis)."
+    },
+    "HCN_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of hydrogen cyanide."
+    },
+    "C2H2_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of acetylene."
+    },
+    "NH3_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Initial moles of ammonia."
+    },
+    "C2H2_over_HCN": {
+      "dtype": "float64",
+      "units": "ratio",
+      "description": "Initial C2H2/HCN mole ratio (derived design variable)."
+    },
+    "deltaG_offset_kJ_mol": {
+      "dtype": "float64",
+      "units": "kJ/mol",
+      "description": "Gibbs-energy offset applied to the target species."
+    },
+    "n_total_eq_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Reconstructed total moles at equilibrium for the case."
+    },
+    "n_eq_mol": {
+      "dtype": "float64",
+      "units": "mol",
+      "description": "Reconstructed equilibrium moles of the species."
+    },
+    "element_balance_relative_spread": {
+      "dtype": "float64",
+      "units": "",
+      "description": "Relative spread of per-element total-mole estimates (QC)."
+    },
+    "element_total_mole_estimates": {
+      "dtype": "str",
+      "units": "",
+      "description": "Per-element total-mole estimates (diagnostic string)."
+    }
+  }
+}

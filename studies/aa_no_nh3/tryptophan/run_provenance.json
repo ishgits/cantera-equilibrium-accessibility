@@ -1,0 +1,19 @@
+{
+  "study_id": "tryptophan",
+  "timestamp_utc": "2026-06-29T18:34:50.718397+00:00",
+  "git_sha": null,
+  "versions": {
+    "cantera": "3.2.0",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0"
+  },
+  "config_path": "studies/aa_no_nh3/tryptophan/study_config.yaml",
+  "config_relpath": "studies/aa_no_nh3/tryptophan/study_config.yaml",
+  "config_sha256": "c1621f461d3e7b539b58954da629b23cf7ddba35f21f2b39c261a4a32f24bce5",
+  "gibbs_seed_sha256": "a161af0618563039c311ef8498004efdecfdce76c88fb41bba0a5ca64a0d7a19",
+  "input_hashes": {
+    "species_csv": "652d436b316744be16123ec7f784a5962264b05350f993fe2b8aa34358e060cf",
+    "gibbs_seed_wide_csv": "a161af0618563039c311ef8498004efdecfdce76c88fb41bba0a5ca64a0d7a19"
+  }
+}

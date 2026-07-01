@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+SER_INV_000001,serine,inventory_landscape,Serine(aq),Serine(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,SER_INV_000001,M_07624ddcdcb4,88da7bed4bfa7992
+SER_DG_000001,serine,deltaG_sweep,Serine(aq),Serine__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,SER_DG_000001,M_12bb5cd0866b,79c18ad002bb9ef1
+SER_DG_000002,serine,deltaG_sweep,Serine(aq),Serine__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,SER_DG_000002,M_9e5f96880d0f,9a4b1d1716cf194f
+SER_DG_000003,serine,deltaG_sweep,Serine(aq),Serine__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,SER_DG_000003,M_e9b802487ca1,d5a924cb776ddd1e
+SER_DG_000004,serine,deltaG_sweep,Serine(aq),Serine__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,SER_DG_000004,M_a35f9c8205b8,97df093f58dfc901
+SER_DG_000005,serine,deltaG_sweep,Serine(aq),Serine__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,SER_DG_000005,M_4e91a3626ec4,271e4dec8d38bffc
+SER_DG_000006,serine,deltaG_sweep,Serine(aq),Serine__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,SER_DG_000006,M_c511aeaf6536,aad1a32c6fb3bebc
+SER_DG_000007,serine,deltaG_sweep,Serine(aq),Serine__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,SER_DG_000007,M_8e357b472e4c,642d4646191bede7
+SER_DG_000008,serine,deltaG_sweep,Serine(aq),Serine__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,SER_DG_000008,M_415f87c44da3,8e9a28f51eeaa803
+SER_DG_000009,serine,deltaG_sweep,Serine(aq),Serine__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,SER_DG_000009,M_a7280b0028c4,add442a475dd3c1e
+SER_DG_000010,serine,deltaG_sweep,Serine(aq),Serine__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,SER_DG_000010,M_f7fb4a768e78,52d6aafaad563edf
+SER_DG_000011,serine,deltaG_sweep,Serine(aq),Serine__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,SER_DG_000011,M_9443c46a39df,6c4a8b0e6094ee9d

@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+ASP_INV_000001,asparticacid,inventory_landscape,AsparticAcid(aq),AsparticAcid(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,ASP_INV_000001,M_6af61cbef57b,2e75a069f41436d2
+ASP_DG_000001,asparticacid,deltaG_sweep,AsparticAcid(aq),AsparticAcid__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,ASP_DG_000001,M_aa62807504ef,f880b0850496bee8
+ASP_DG_000002,asparticacid,deltaG_sweep,AsparticAcid(aq),AsparticAcid__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,ASP_DG_000002,M_14b3d9f882bb,10ed55de5f369f5c
+ASP_DG_000003,asparticacid,deltaG_sweep,AsparticAcid(aq),AsparticAcid__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,ASP_DG_000003,M_1063b90802d3,a557df867463deb1
+ASP_DG_000004,asparticacid,deltaG_sweep,AsparticAcid(aq),AsparticAcid__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,ASP_DG_000004,M_1dec64a15217,4311ea7a90dfb63f
+ASP_DG_000005,asparticacid,deltaG_sweep,AsparticAcid(aq),AsparticAcid__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,ASP_DG_000005,M_cf89d0e8e894,5a59aec59021dabc
+ASP_DG_000006,asparticacid,deltaG_sweep,AsparticAcid(aq),AsparticAcid__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,ASP_DG_000006,M_2936ebb3ccd6,6d7430a9d4d24deb
+ASP_DG_000007,asparticacid,deltaG_sweep,AsparticAcid(aq),AsparticAcid__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,ASP_DG_000007,M_20c07d505589,20e5705c8eb0d5c4
+ASP_DG_000008,asparticacid,deltaG_sweep,AsparticAcid(aq),AsparticAcid__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,ASP_DG_000008,M_d2e525d1778e,08afda51b269bc40
+ASP_DG_000009,asparticacid,deltaG_sweep,AsparticAcid(aq),AsparticAcid__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,ASP_DG_000009,M_10b9a4847049,9a02c9faa41acf75
+ASP_DG_000010,asparticacid,deltaG_sweep,AsparticAcid(aq),AsparticAcid__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,ASP_DG_000010,M_677232a1e361,8f7d74d05081bda7
+ASP_DG_000011,asparticacid,deltaG_sweep,AsparticAcid(aq),AsparticAcid__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,ASP_DG_000011,M_730a58f059e5,51a60df06deee737

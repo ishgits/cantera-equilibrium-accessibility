@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+PRO_INV_000001,PRO_INV_000001,M_af61d52f110a,models/M_af61d52f110a.yaml,Proline(aq),Proline(aq),0.0,101325.0,91ffaad9faf795bc,ok,0.008266167002147995,
+PRO_DG_000001,PRO_DG_000001,M_997e1841b649,models/M_997e1841b649.yaml,Proline(aq),Proline__dG_m200(aq),0.0,101325.0,d6128f163f2d6237,ok,0.005243416002485901,
+PRO_DG_000002,PRO_DG_000002,M_aae86ae946bc,models/M_aae86ae946bc.yaml,Proline(aq),Proline__dG_m160(aq),0.0,101325.0,cf2c431bf26fa0e1,ok,0.006495416993857361,
+PRO_DG_000003,PRO_DG_000003,M_0d887b96b030,models/M_0d887b96b030.yaml,Proline(aq),Proline__dG_m120(aq),0.0,101325.0,fa52c1a5ab1d9630,ok,0.004901917011011392,
+PRO_DG_000004,PRO_DG_000004,M_42895e6bd8b7,models/M_42895e6bd8b7.yaml,Proline(aq),Proline__dG_m080(aq),0.0,101325.0,3b64e36c1bcdec45,ok,0.004933958000037819,
+PRO_DG_000005,PRO_DG_000005,M_66e816dcc08b,models/M_66e816dcc08b.yaml,Proline(aq),Proline__dG_m040(aq),0.0,101325.0,3ccc2cb2e8553a7a,ok,0.006052374999853782,
+PRO_DG_000006,PRO_DG_000006,M_41bccb3fc0c4,models/M_41bccb3fc0c4.yaml,Proline(aq),Proline__dG_000(aq),0.0,101325.0,ae2c0a8b405b3318,ok,0.005274875002214685,
+PRO_DG_000007,PRO_DG_000007,M_00be063fd2b6,models/M_00be063fd2b6.yaml,Proline(aq),Proline__dG_p040(aq),0.0,101325.0,7e72a7aecf72b0cf,ok,0.006065041001420468,
+PRO_DG_000008,PRO_DG_000008,M_ce83b3479037,models/M_ce83b3479037.yaml,Proline(aq),Proline__dG_p080(aq),0.0,101325.0,af9adaed17ca8347,ok,0.005444875001558103,
+PRO_DG_000009,PRO_DG_000009,M_1369a108dd6c,models/M_1369a108dd6c.yaml,Proline(aq),Proline__dG_p120(aq),0.0,101325.0,5d941ff32115221d,ok,0.00696891600091476,
+PRO_DG_000010,PRO_DG_000010,M_3fccadd55635,models/M_3fccadd55635.yaml,Proline(aq),Proline__dG_p160(aq),0.0,101325.0,296e3db25368ce39,ok,0.004925166998873465,
+PRO_DG_000011,PRO_DG_000011,M_6d35a404beed,models/M_6d35a404beed.yaml,Proline(aq),Proline__dG_p200(aq),0.0,101325.0,5533350b978f2dc3,ok,0.005031583990785293,

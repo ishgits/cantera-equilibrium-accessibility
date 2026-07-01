@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+GLU_INV_000001,GLU_INV_000001,M_5d2f33cf4b42,models/M_5d2f33cf4b42.yaml,Glutamine(aq),Glutamine(aq),0.0,101325.0,96c00853c7ab9708,ok,0.005685875003109686,
+GLU_DG_000001,GLU_DG_000001,M_cdac3fa3090e,models/M_cdac3fa3090e.yaml,Glutamine(aq),Glutamine__dG_m200(aq),0.0,101325.0,507031202bf509bf,ok,0.004822834001970477,
+GLU_DG_000002,GLU_DG_000002,M_554e404fce7e,models/M_554e404fce7e.yaml,Glutamine(aq),Glutamine__dG_m160(aq),0.0,101325.0,a2ccca5ddf044671,ok,0.004694750008638948,
+GLU_DG_000003,GLU_DG_000003,M_a8993e3a4ae7,models/M_a8993e3a4ae7.yaml,Glutamine(aq),Glutamine__dG_m120(aq),0.0,101325.0,d19bebb8df7a3457,ok,0.004945540989865549,
+GLU_DG_000004,GLU_DG_000004,M_26f9f9502b5a,models/M_26f9f9502b5a.yaml,Glutamine(aq),Glutamine__dG_m080(aq),0.0,101325.0,96878760d214d556,ok,0.0045424160052789375,
+GLU_DG_000005,GLU_DG_000005,M_b12e04e60f33,models/M_b12e04e60f33.yaml,Glutamine(aq),Glutamine__dG_m040(aq),0.0,101325.0,7bcb862bcc2d8424,ok,0.004568417003611103,
+GLU_DG_000006,GLU_DG_000006,M_6aeb9e54564f,models/M_6aeb9e54564f.yaml,Glutamine(aq),Glutamine__dG_000(aq),0.0,101325.0,5ea4db8cf86824d4,ok,0.005069042003015056,
+GLU_DG_000007,GLU_DG_000007,M_d9cdbc06d2df,models/M_d9cdbc06d2df.yaml,Glutamine(aq),Glutamine__dG_p040(aq),0.0,101325.0,4c573f75f242c2a8,ok,0.004576167004415765,
+GLU_DG_000008,GLU_DG_000008,M_f9da664982ff,models/M_f9da664982ff.yaml,Glutamine(aq),Glutamine__dG_p080(aq),0.0,101325.0,1c00baffb00fd62b,ok,0.004529290992650203,
+GLU_DG_000009,GLU_DG_000009,M_d165786baa11,models/M_d165786baa11.yaml,Glutamine(aq),Glutamine__dG_p120(aq),0.0,101325.0,f358dd49f296214c,ok,0.00476983399130404,
+GLU_DG_000010,GLU_DG_000010,M_47bc82227f2c,models/M_47bc82227f2c.yaml,Glutamine(aq),Glutamine__dG_p160(aq),0.0,101325.0,4c2387d9c1226eeb,ok,0.004576916006044485,
+GLU_DG_000011,GLU_DG_000011,M_0ae597c553b4,models/M_0ae597c553b4.yaml,Glutamine(aq),Glutamine__dG_p200(aq),0.0,101325.0,3404d162a69e1232,ok,0.004911666997941211,

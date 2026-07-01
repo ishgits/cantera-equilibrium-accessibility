@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+LYS_INV_000001,lysine,inventory_landscape,Lysine(aq),Lysine(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,LYS_INV_000001,M_730bb12e01ab,6697201106b2b929
+LYS_DG_000001,lysine,deltaG_sweep,Lysine(aq),Lysine__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,LYS_DG_000001,M_27d21f8fc956,cbea40c5c58c77ab
+LYS_DG_000002,lysine,deltaG_sweep,Lysine(aq),Lysine__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,LYS_DG_000002,M_c8e32c6be7ad,af90e471eeb345f5
+LYS_DG_000003,lysine,deltaG_sweep,Lysine(aq),Lysine__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,LYS_DG_000003,M_7feae772d5cf,50299af7fce19634
+LYS_DG_000004,lysine,deltaG_sweep,Lysine(aq),Lysine__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,LYS_DG_000004,M_0ae6e4caf8d4,9470d9caf07d06e7
+LYS_DG_000005,lysine,deltaG_sweep,Lysine(aq),Lysine__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,LYS_DG_000005,M_c873ea435fcc,38d2c0b2c44d1345
+LYS_DG_000006,lysine,deltaG_sweep,Lysine(aq),Lysine__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,LYS_DG_000006,M_01e4d0d684eb,941b9153e935ada3
+LYS_DG_000007,lysine,deltaG_sweep,Lysine(aq),Lysine__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,LYS_DG_000007,M_bff3d5d0aaa9,91e353698d266e41
+LYS_DG_000008,lysine,deltaG_sweep,Lysine(aq),Lysine__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,LYS_DG_000008,M_f88afb06b490,5a1a05df20aa258f
+LYS_DG_000009,lysine,deltaG_sweep,Lysine(aq),Lysine__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,LYS_DG_000009,M_3d3519a3d7d0,7ee7b1f7770dcb82
+LYS_DG_000010,lysine,deltaG_sweep,Lysine(aq),Lysine__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,LYS_DG_000010,M_aa42e7938809,ef6919d9cd64c5b2
+LYS_DG_000011,lysine,deltaG_sweep,Lysine(aq),Lysine__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,LYS_DG_000011,M_99cffa65d1dd,04d3200a1f17059d

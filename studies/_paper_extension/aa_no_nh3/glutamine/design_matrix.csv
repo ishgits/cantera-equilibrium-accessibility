@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+GLU_INV_000001,glutamine,inventory_landscape,Glutamine(aq),Glutamine(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,GLU_INV_000001,M_5d2f33cf4b42,96c00853c7ab9708
+GLU_DG_000001,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,GLU_DG_000001,M_cdac3fa3090e,507031202bf509bf
+GLU_DG_000002,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,GLU_DG_000002,M_554e404fce7e,a2ccca5ddf044671
+GLU_DG_000003,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,GLU_DG_000003,M_a8993e3a4ae7,d19bebb8df7a3457
+GLU_DG_000004,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,GLU_DG_000004,M_26f9f9502b5a,96878760d214d556
+GLU_DG_000005,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,GLU_DG_000005,M_b12e04e60f33,7bcb862bcc2d8424
+GLU_DG_000006,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,GLU_DG_000006,M_6aeb9e54564f,5ea4db8cf86824d4
+GLU_DG_000007,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,GLU_DG_000007,M_d9cdbc06d2df,4c573f75f242c2a8
+GLU_DG_000008,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,GLU_DG_000008,M_f9da664982ff,1c00baffb00fd62b
+GLU_DG_000009,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,GLU_DG_000009,M_d165786baa11,f358dd49f296214c
+GLU_DG_000010,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,GLU_DG_000010,M_47bc82227f2c,4c2387d9c1226eeb
+GLU_DG_000011,glutamine,deltaG_sweep,Glutamine(aq),Glutamine__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,GLU_DG_000011,M_0ae597c553b4,3404d162a69e1232

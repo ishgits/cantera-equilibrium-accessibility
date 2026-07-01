@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+TRY_INV_000001,tryptophan,inventory_landscape,Tryptophan(aq),Tryptophan(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,TRY_INV_000001,M_4c83a72d8783,a8ec142da9f96ae4
+TRY_DG_000001,tryptophan,deltaG_sweep,Tryptophan(aq),Tryptophan__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,TRY_DG_000001,M_c23ad6ba9760,220dd110c1c11d88
+TRY_DG_000002,tryptophan,deltaG_sweep,Tryptophan(aq),Tryptophan__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,TRY_DG_000002,M_95bf39609032,d13e5380d8fc19bb
+TRY_DG_000003,tryptophan,deltaG_sweep,Tryptophan(aq),Tryptophan__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,TRY_DG_000003,M_840bce44ea9e,2716692a560f4bd9
+TRY_DG_000004,tryptophan,deltaG_sweep,Tryptophan(aq),Tryptophan__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,TRY_DG_000004,M_962ab3fffa4f,36e1ea116126ef39
+TRY_DG_000005,tryptophan,deltaG_sweep,Tryptophan(aq),Tryptophan__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,TRY_DG_000005,M_3d153095db2f,76a3dde78cb4d911
+TRY_DG_000006,tryptophan,deltaG_sweep,Tryptophan(aq),Tryptophan__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,TRY_DG_000006,M_b2358965eaa2,6411e68551572261
+TRY_DG_000007,tryptophan,deltaG_sweep,Tryptophan(aq),Tryptophan__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,TRY_DG_000007,M_770bf431ab81,016064520c7c2579
+TRY_DG_000008,tryptophan,deltaG_sweep,Tryptophan(aq),Tryptophan__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,TRY_DG_000008,M_20ec47f0dead,e39236ff80481c30
+TRY_DG_000009,tryptophan,deltaG_sweep,Tryptophan(aq),Tryptophan__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,TRY_DG_000009,M_d63c5450caac,5a2f81d6fbcf5026
+TRY_DG_000010,tryptophan,deltaG_sweep,Tryptophan(aq),Tryptophan__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,TRY_DG_000010,M_81dedef9fa51,56a5ec95577538bd
+TRY_DG_000011,tryptophan,deltaG_sweep,Tryptophan(aq),Tryptophan__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,TRY_DG_000011,M_0e329b59d5d1,fe608d4fec4a8bff

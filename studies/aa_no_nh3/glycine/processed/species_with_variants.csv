@@ -1,0 +1,34 @@
+species_key,cantera_name,chnosz_name,formula,state,molar_volume_cm3_mol,role,notes,product_class
+h2o,H2O(l),water,H2O,liq,18.015,solvent,liquid water basis species,
+hcn,HCN(aq),HCN,CHN,aq,23.9,reactant,hydrogen cyanide starting inventory,
+c2h2,C2H2(aq),ethyne,C2H2,aq,26.038,reactant,acetylene starting inventory,
+nh3,NH3(aq),NH3,H3N,aq,24.5,reactant,ammonia starting inventory,
+glycine,Glycine(aq),glycine,C2H5NO2,aq,43.2,product,CHNOSZ 'glycine'; standard partial molar volume from CHNOSZ,amino_acid
+alanine,Alanine(aq),alanine,C3H7NO2,aq,60.4,product,CHNOSZ 'alanine'; standard partial molar volume from CHNOSZ,amino_acid
+serine,Serine(aq),serine,C3H7NO3,aq,60.6,product,CHNOSZ 'serine'; standard partial molar volume from CHNOSZ,amino_acid
+proline,Proline(aq),proline,C5H9NO2,aq,82.6,product,CHNOSZ 'proline'; standard partial molar volume from CHNOSZ,amino_acid
+valine,Valine(aq),valine,C5H11NO2,aq,90.9,product,CHNOSZ 'valine'; standard partial molar volume from CHNOSZ,amino_acid
+threonine,Threonine(aq),threonine,C4H9NO3,aq,77.6,product,CHNOSZ 'threonine'; standard partial molar volume from CHNOSZ,amino_acid
+leucine,Leucine(aq),leucine,C6H13NO2,aq,107.8,product,CHNOSZ 'leucine'; standard partial molar volume from CHNOSZ,amino_acid
+isoleucine,Isoleucine(aq),isoleucine,C6H13NO2,aq,105.8,product,CHNOSZ 'isoleucine'; standard partial molar volume from CHNOSZ,amino_acid
+asparagine,Asparagine(aq),asparagine,C4H8N2O3,aq,77.4,product,CHNOSZ 'asparagine'; standard partial molar volume from CHNOSZ,amino_acid
+asparticacid,AsparticAcid(aq),aspartic acid,C4H7NO4,aq,74.7,product,CHNOSZ 'aspartic acid'; standard partial molar volume from CHNOSZ,amino_acid
+glutamine,Glutamine(aq),glutamine,C5H10N2O3,aq,93.7,product,CHNOSZ 'glutamine'; standard partial molar volume from CHNOSZ,amino_acid
+lysine,Lysine(aq),lysine,C6H14N2O2,aq,108.6,product,CHNOSZ 'lysine'; standard partial molar volume from CHNOSZ,amino_acid
+glutamicacid,GlutamicAcid(aq),glutamic acid,C5H9NO4,aq,90.2,product,CHNOSZ 'glutamic acid'; standard partial molar volume from CHNOSZ,amino_acid
+arginine,Arginine(aq),arginine,C6H14N4O2,aq,123.9,product,CHNOSZ 'arginine'; standard partial molar volume from CHNOSZ,amino_acid
+histidine,Histidine(aq),histidine,C6H9N3O2,aq,99.3,product,CHNOSZ 'histidine'; standard partial molar volume from CHNOSZ,amino_acid
+phenylalanine,Phenylalanine(aq),phenylalanine,C9H11NO2,aq,122.1,product,CHNOSZ 'phenylalanine'; standard partial molar volume from CHNOSZ,amino_acid
+tyrosine,Tyrosine(aq),tyrosine,C9H11NO3,aq,124.5,product,CHNOSZ 'tyrosine'; standard partial molar volume from CHNOSZ,amino_acid
+tryptophan,Tryptophan(aq),tryptophan,C11H12N2O2,aq,143.6,product,CHNOSZ 'tryptophan'; standard partial molar volume from CHNOSZ,amino_acid
+glycine__dG_m200,Glycine__dG_m200(aq),glycine,C2H5NO2,aq,43.2,product,ΔG sensitivity variant of Glycine(aq): -200 kJ/mol Gibbs offset,amino_acid
+glycine__dG_m160,Glycine__dG_m160(aq),glycine,C2H5NO2,aq,43.2,product,ΔG sensitivity variant of Glycine(aq): -160 kJ/mol Gibbs offset,amino_acid
+glycine__dG_m120,Glycine__dG_m120(aq),glycine,C2H5NO2,aq,43.2,product,ΔG sensitivity variant of Glycine(aq): -120 kJ/mol Gibbs offset,amino_acid
+glycine__dG_m080,Glycine__dG_m080(aq),glycine,C2H5NO2,aq,43.2,product,ΔG sensitivity variant of Glycine(aq): -80 kJ/mol Gibbs offset,amino_acid
+glycine__dG_m040,Glycine__dG_m040(aq),glycine,C2H5NO2,aq,43.2,product,ΔG sensitivity variant of Glycine(aq): -40 kJ/mol Gibbs offset,amino_acid
+glycine__dG_000,Glycine__dG_000(aq),glycine,C2H5NO2,aq,43.2,product,ΔG sensitivity variant of Glycine(aq): +0 kJ/mol Gibbs offset,amino_acid
+glycine__dG_p040,Glycine__dG_p040(aq),glycine,C2H5NO2,aq,43.2,product,ΔG sensitivity variant of Glycine(aq): +40 kJ/mol Gibbs offset,amino_acid
+glycine__dG_p080,Glycine__dG_p080(aq),glycine,C2H5NO2,aq,43.2,product,ΔG sensitivity variant of Glycine(aq): +80 kJ/mol Gibbs offset,amino_acid
+glycine__dG_p120,Glycine__dG_p120(aq),glycine,C2H5NO2,aq,43.2,product,ΔG sensitivity variant of Glycine(aq): +120 kJ/mol Gibbs offset,amino_acid
+glycine__dG_p160,Glycine__dG_p160(aq),glycine,C2H5NO2,aq,43.2,product,ΔG sensitivity variant of Glycine(aq): +160 kJ/mol Gibbs offset,amino_acid
+glycine__dG_p200,Glycine__dG_p200(aq),glycine,C2H5NO2,aq,43.2,product,ΔG sensitivity variant of Glycine(aq): +200 kJ/mol Gibbs offset,amino_acid

@@ -1,0 +1,19 @@
+{
+  "study_id": "histidine",
+  "timestamp_utc": "2026-06-29T18:34:23.328952+00:00",
+  "git_sha": null,
+  "versions": {
+    "cantera": "3.2.0",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0"
+  },
+  "config_path": "studies/aa_no_nh3/histidine/study_config.yaml",
+  "config_relpath": "studies/aa_no_nh3/histidine/study_config.yaml",
+  "config_sha256": "8b87d9f9f0c1488d63eeb46286ce320fd7eaff5bffe7b1f43ea5daa912c4862f",
+  "gibbs_seed_sha256": "a161af0618563039c311ef8498004efdecfdce76c88fb41bba0a5ca64a0d7a19",
+  "input_hashes": {
+    "species_csv": "652d436b316744be16123ec7f784a5962264b05350f993fe2b8aa34358e060cf",
+    "gibbs_seed_wide_csv": "a161af0618563039c311ef8498004efdecfdce76c88fb41bba0a5ca64a0d7a19"
+  }
+}

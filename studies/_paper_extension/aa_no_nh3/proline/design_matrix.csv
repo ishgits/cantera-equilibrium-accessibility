@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+PRO_INV_000001,proline,inventory_landscape,Proline(aq),Proline(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,PRO_INV_000001,M_af61d52f110a,91ffaad9faf795bc
+PRO_DG_000001,proline,deltaG_sweep,Proline(aq),Proline__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,PRO_DG_000001,M_997e1841b649,d6128f163f2d6237
+PRO_DG_000002,proline,deltaG_sweep,Proline(aq),Proline__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,PRO_DG_000002,M_aae86ae946bc,cf2c431bf26fa0e1
+PRO_DG_000003,proline,deltaG_sweep,Proline(aq),Proline__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,PRO_DG_000003,M_0d887b96b030,fa52c1a5ab1d9630
+PRO_DG_000004,proline,deltaG_sweep,Proline(aq),Proline__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,PRO_DG_000004,M_42895e6bd8b7,3b64e36c1bcdec45
+PRO_DG_000005,proline,deltaG_sweep,Proline(aq),Proline__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,PRO_DG_000005,M_66e816dcc08b,3ccc2cb2e8553a7a
+PRO_DG_000006,proline,deltaG_sweep,Proline(aq),Proline__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,PRO_DG_000006,M_41bccb3fc0c4,ae2c0a8b405b3318
+PRO_DG_000007,proline,deltaG_sweep,Proline(aq),Proline__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,PRO_DG_000007,M_00be063fd2b6,7e72a7aecf72b0cf
+PRO_DG_000008,proline,deltaG_sweep,Proline(aq),Proline__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,PRO_DG_000008,M_ce83b3479037,af9adaed17ca8347
+PRO_DG_000009,proline,deltaG_sweep,Proline(aq),Proline__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,PRO_DG_000009,M_1369a108dd6c,5d941ff32115221d
+PRO_DG_000010,proline,deltaG_sweep,Proline(aq),Proline__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,PRO_DG_000010,M_3fccadd55635,296e3db25368ce39
+PRO_DG_000011,proline,deltaG_sweep,Proline(aq),Proline__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,PRO_DG_000011,M_6d35a404beed,5533350b978f2dc3

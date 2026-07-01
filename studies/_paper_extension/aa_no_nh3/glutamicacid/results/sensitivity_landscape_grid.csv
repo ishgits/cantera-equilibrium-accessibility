@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,model_id,NH3_mol,HCN_mol,C2H2_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,X_eq,log10_X_eq,n_eq_mol,log10_n_eq_mol,formed_bool,formation_call,solver_status,runtime_seconds
+GLU_DG_000001,glutamicacid,deltaG_sweep,GlutamicAcid(aq),GlutamicAcid__dG_m200(aq),M_70a6c8e22371,0.0,0.02,0.042,2.1,-200.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.004986291998648
+GLU_DG_000002,glutamicacid,deltaG_sweep,GlutamicAcid(aq),GlutamicAcid__dG_m160(aq),M_3780cf991826,0.0,0.02,0.042,2.1,-160.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045952090003993
+GLU_DG_000003,glutamicacid,deltaG_sweep,GlutamicAcid(aq),GlutamicAcid__dG_m120(aq),M_811376ff5945,0.0,0.02,0.042,2.1,-120.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045623330079251
+GLU_DG_000004,glutamicacid,deltaG_sweep,GlutamicAcid(aq),GlutamicAcid__dG_m080(aq),M_8ee64ac99f91,0.0,0.02,0.042,2.1,-80.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0048747089895186
+GLU_DG_000005,glutamicacid,deltaG_sweep,GlutamicAcid(aq),GlutamicAcid__dG_m040(aq),M_19899125be23,0.0,0.02,0.042,2.1,-40.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.004548083001282
+GLU_DG_000006,glutamicacid,deltaG_sweep,GlutamicAcid(aq),GlutamicAcid__dG_000(aq),M_09fa0120f07d,0.0,0.02,0.042,2.1,0.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.004550666999421
+GLU_DG_000007,glutamicacid,deltaG_sweep,GlutamicAcid(aq),GlutamicAcid__dG_p040(aq),M_d95427c597eb,0.0,0.02,0.042,2.1,40.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0050347910000709
+GLU_DG_000008,glutamicacid,deltaG_sweep,GlutamicAcid(aq),GlutamicAcid__dG_p080(aq),M_7de23c8ed6e8,0.0,0.02,0.042,2.1,80.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0046061659959377
+GLU_DG_000009,glutamicacid,deltaG_sweep,GlutamicAcid(aq),GlutamicAcid__dG_p120(aq),M_cb4a3b575cfd,0.0,0.02,0.042,2.1,120.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0046077919978415
+GLU_DG_000010,glutamicacid,deltaG_sweep,GlutamicAcid(aq),GlutamicAcid__dG_p160(aq),M_1ddad49816ef,0.0,0.02,0.042,2.1,160.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0048637080035405
+GLU_DG_000011,glutamicacid,deltaG_sweep,GlutamicAcid(aq),GlutamicAcid__dG_p200(aq),M_06a4c136b2e8,0.0,0.02,0.042,2.1,200.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045852909970562
+GLU_INV_000001,glutamicacid,inventory_landscape,GlutamicAcid(aq),GlutamicAcid(aq),M_31a821d98b00,0.0,0.02,0.042,2.1,0.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0052544589998433

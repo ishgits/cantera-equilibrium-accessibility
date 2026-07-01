@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import Optional, Sequence
 
 import numpy as np
 import pandas as pd
@@ -118,7 +118,7 @@ def fit_all_species(
     make_plots: bool = True,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Fit NASA9 coefficients for every non-temperature column in a wide G(T) CSV."""
-    df = pd.read_csv(gibbs_wide_csv)
+    df = read_wide_gibbs_csv(gibbs_wide_csv)
     temp_col = None
     for c in df.columns:
         if c.lower().replace(" ", "") in {"t_k", "t(k)", "temperature_k", "temperature(k)"}:
@@ -211,6 +211,15 @@ def plot_fit(species_name: str, T: np.ndarray, G: np.ndarray, a_low: np.ndarray,
     fig.tight_layout()
     fig.savefig(figures_dir / f"{safe}_residuals.png")
     plt.close(fig)
+
+
+def read_wide_gibbs_csv(path: str | Path) -> pd.DataFrame:
+    """Read a wide G(T) CSV, ignoring ``#`` comment lines.
+
+    Some seed files (e.g. ``inputs/example_validation_gibbs.csv``) carry a comment
+    header; this lets the sensitivity path load them exactly like the base workflow.
+    """
+    return pd.read_csv(path, comment="#")
 
 
 def load_coefficients(path: str | Path) -> pd.DataFrame:

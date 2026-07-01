@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,model_id,NH3_mol,HCN_mol,C2H2_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,X_eq,log10_X_eq,n_eq_mol,log10_n_eq_mol,formed_bool,formation_call,solver_status,runtime_seconds
+PHE_DG_000001,phenylalanine,deltaG_sweep,Phenylalanine(aq),Phenylalanine__dG_m200(aq),M_5536af72b50a,0.0,0.02,0.042,2.1,-200.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0046665840054629
+PHE_DG_000002,phenylalanine,deltaG_sweep,Phenylalanine(aq),Phenylalanine__dG_m160(aq),M_d45350bf60ed,0.0,0.02,0.042,2.1,-160.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0046546670055249
+PHE_DG_000003,phenylalanine,deltaG_sweep,Phenylalanine(aq),Phenylalanine__dG_m120(aq),M_82818de67c5b,0.0,0.02,0.042,2.1,-120.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045591250091092
+PHE_DG_000004,phenylalanine,deltaG_sweep,Phenylalanine(aq),Phenylalanine__dG_m080(aq),M_b4fefb38379a,0.0,0.02,0.042,2.1,-80.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0047322499885922
+PHE_DG_000005,phenylalanine,deltaG_sweep,Phenylalanine(aq),Phenylalanine__dG_m040(aq),M_92c74a1cc6b8,0.0,0.02,0.042,2.1,-40.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045190410019131
+PHE_DG_000006,phenylalanine,deltaG_sweep,Phenylalanine(aq),Phenylalanine__dG_000(aq),M_d0affe0b9d72,0.0,0.02,0.042,2.1,0.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045756249892292
+PHE_DG_000007,phenylalanine,deltaG_sweep,Phenylalanine(aq),Phenylalanine__dG_p040(aq),M_c91a1f87fe88,0.0,0.02,0.042,2.1,40.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0049632919981377
+PHE_DG_000008,phenylalanine,deltaG_sweep,Phenylalanine(aq),Phenylalanine__dG_p080(aq),M_250169f49a55,0.0,0.02,0.042,2.1,80.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0047596249933121
+PHE_DG_000009,phenylalanine,deltaG_sweep,Phenylalanine(aq),Phenylalanine__dG_p120(aq),M_cdeab8ac49e1,0.0,0.02,0.042,2.1,120.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045530839997809
+PHE_DG_000010,phenylalanine,deltaG_sweep,Phenylalanine(aq),Phenylalanine__dG_p160(aq),M_785085d1f145,0.0,0.02,0.042,2.1,160.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0049154580046888
+PHE_DG_000011,phenylalanine,deltaG_sweep,Phenylalanine(aq),Phenylalanine__dG_p200(aq),M_c28df8060be7,0.0,0.02,0.042,2.1,200.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0045936249953228
+PHE_INV_000001,phenylalanine,inventory_landscape,Phenylalanine(aq),Phenylalanine(aq),M_7ad335bcbf00,0.0,0.02,0.042,2.1,0.0,0.0,101325.0,0.0,,0.0,,False,below_threshold,ok,0.0054174170072656

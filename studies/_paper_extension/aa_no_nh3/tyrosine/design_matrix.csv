@@ -1,0 +1,13 @@
+case_id,study_id,substudy_id,target_product,target_variant,H2O_mol,HCN_mol,C2H2_mol,NH3_mol,C2H2_over_HCN,deltaG_offset_kJ_mol,T_C,P_Pa,scenario_id,model_id,case_hash
+TYR_INV_000001,tyrosine,inventory_landscape,Tyrosine(aq),Tyrosine(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,TYR_INV_000001,M_3f3272a8ab8d,6a1d11400caefcdf
+TYR_DG_000001,tyrosine,deltaG_sweep,Tyrosine(aq),Tyrosine__dG_m200(aq),1.0,0.02,0.042,0.0,2.1,-200.0,0.0,101325.0,TYR_DG_000001,M_ffde0ec1126b,03b6b29441f10ca7
+TYR_DG_000002,tyrosine,deltaG_sweep,Tyrosine(aq),Tyrosine__dG_m160(aq),1.0,0.02,0.042,0.0,2.1,-160.0,0.0,101325.0,TYR_DG_000002,M_b54bf49d38ea,a99375817b6b5b85
+TYR_DG_000003,tyrosine,deltaG_sweep,Tyrosine(aq),Tyrosine__dG_m120(aq),1.0,0.02,0.042,0.0,2.1,-120.0,0.0,101325.0,TYR_DG_000003,M_eb84077f6ff9,c8286e8f1227ab24
+TYR_DG_000004,tyrosine,deltaG_sweep,Tyrosine(aq),Tyrosine__dG_m080(aq),1.0,0.02,0.042,0.0,2.1,-80.0,0.0,101325.0,TYR_DG_000004,M_40f58ec6fd93,6d0c4e9771a1107d
+TYR_DG_000005,tyrosine,deltaG_sweep,Tyrosine(aq),Tyrosine__dG_m040(aq),1.0,0.02,0.042,0.0,2.1,-40.0,0.0,101325.0,TYR_DG_000005,M_4ca4051e722b,56c17b783d533868
+TYR_DG_000006,tyrosine,deltaG_sweep,Tyrosine(aq),Tyrosine__dG_000(aq),1.0,0.02,0.042,0.0,2.1,0.0,0.0,101325.0,TYR_DG_000006,M_6f391d545b11,899cb04d0b5123e7
+TYR_DG_000007,tyrosine,deltaG_sweep,Tyrosine(aq),Tyrosine__dG_p040(aq),1.0,0.02,0.042,0.0,2.1,40.0,0.0,101325.0,TYR_DG_000007,M_60ff7e4d5d83,71b21a0622f60464
+TYR_DG_000008,tyrosine,deltaG_sweep,Tyrosine(aq),Tyrosine__dG_p080(aq),1.0,0.02,0.042,0.0,2.1,80.0,0.0,101325.0,TYR_DG_000008,M_467b9fc47391,ccfe1fb0321c1fbc
+TYR_DG_000009,tyrosine,deltaG_sweep,Tyrosine(aq),Tyrosine__dG_p120(aq),1.0,0.02,0.042,0.0,2.1,120.0,0.0,101325.0,TYR_DG_000009,M_4f2cb03e3701,9987ca59e9406a32
+TYR_DG_000010,tyrosine,deltaG_sweep,Tyrosine(aq),Tyrosine__dG_p160(aq),1.0,0.02,0.042,0.0,2.1,160.0,0.0,101325.0,TYR_DG_000010,M_950418fb8037,1abf496b445670fa
+TYR_DG_000011,tyrosine,deltaG_sweep,Tyrosine(aq),Tyrosine__dG_p200(aq),1.0,0.02,0.042,0.0,2.1,200.0,0.0,101325.0,TYR_DG_000011,M_e773909868c2,bf557bd28ba0bd39

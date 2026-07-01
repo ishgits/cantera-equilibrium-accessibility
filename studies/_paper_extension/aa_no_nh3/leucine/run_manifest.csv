@@ -1,0 +1,13 @@
+case_id,scenario_id,model_id,yaml_path,target_product,target_variant,T_C,P_Pa,case_hash,status,runtime_seconds,error_message
+LEU_INV_000001,LEU_INV_000001,M_2a835c89809e,models/M_2a835c89809e.yaml,Leucine(aq),Leucine(aq),0.0,101325.0,7febbe80f6fd9f88,ok,0.008609167009126395,
+LEU_DG_000001,LEU_DG_000001,M_46badc090e0c,models/M_46badc090e0c.yaml,Leucine(aq),Leucine__dG_m200(aq),0.0,101325.0,7d4154eda4f49d96,ok,0.006363082997268066,
+LEU_DG_000002,LEU_DG_000002,M_cc2df8c8963f,models/M_cc2df8c8963f.yaml,Leucine(aq),Leucine__dG_m160(aq),0.0,101325.0,8843f2d6abe54d6d,ok,0.0050073750026058406,
+LEU_DG_000003,LEU_DG_000003,M_d706f7b0d2e1,models/M_d706f7b0d2e1.yaml,Leucine(aq),Leucine__dG_m120(aq),0.0,101325.0,52b0fcf97e962956,ok,0.005566166000789963,
+LEU_DG_000004,LEU_DG_000004,M_25dfc803a819,models/M_25dfc803a819.yaml,Leucine(aq),Leucine__dG_m080(aq),0.0,101325.0,19c0bed1bfc8ed7b,ok,0.005082040996057913,
+LEU_DG_000005,LEU_DG_000005,M_e6e5ba8d68ac,models/M_e6e5ba8d68ac.yaml,Leucine(aq),Leucine__dG_m040(aq),0.0,101325.0,c46c9277da1347f5,ok,0.005343624987290241,
+LEU_DG_000006,LEU_DG_000006,M_4f50ea1ef6e9,models/M_4f50ea1ef6e9.yaml,Leucine(aq),Leucine__dG_000(aq),0.0,101325.0,ff93f6753349661d,ok,0.008419624995440245,
+LEU_DG_000007,LEU_DG_000007,M_4cc8692aa922,models/M_4cc8692aa922.yaml,Leucine(aq),Leucine__dG_p040(aq),0.0,101325.0,0d086535d7d81663,ok,0.004970457986928523,
+LEU_DG_000008,LEU_DG_000008,M_f00b92de8ea4,models/M_f00b92de8ea4.yaml,Leucine(aq),Leucine__dG_p080(aq),0.0,101325.0,8ef857ee51397d2f,ok,0.004959625002811663,
+LEU_DG_000009,LEU_DG_000009,M_658b6ae07cc8,models/M_658b6ae07cc8.yaml,Leucine(aq),Leucine__dG_p120(aq),0.0,101325.0,51c4c6d2b52852ce,ok,0.00470008299453184,
+LEU_DG_000010,LEU_DG_000010,M_81af16903341,models/M_81af16903341.yaml,Leucine(aq),Leucine__dG_p160(aq),0.0,101325.0,a759eb2c998ec0ca,ok,0.004775665991473943,
+LEU_DG_000011,LEU_DG_000011,M_683f71d97406,models/M_683f71d97406.yaml,Leucine(aq),Leucine__dG_p200(aq),0.0,101325.0,2cb6f86459d4eb67,ok,0.004606916001648642,
